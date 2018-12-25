@@ -25,8 +25,9 @@ body {
     font-family: "Arial MT", sans-serif;
     display: inline-block;
     margin: 0 auto;  
-/*     position: absolute; */
-    padding: -10% 30%;
+    position: absolute;
+    left: 52.7%;
+    bottom: 85%;
     }
 a {
     text-decoration: none;

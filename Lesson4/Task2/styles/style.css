@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Economica');
 * {
     font-family: 'Economica', sans-serif;
-    font-weight:bold;
-    font-size:14px;
     box-sizing: border-box;
     
 }
@@ -14,41 +12,38 @@ body {
     clear: both;
     display: table;
 }
-.main-menu{
+.navigation{
     background-color: #a64dff;
-    
+   position: relative;
 }
-ul.menu {
-    list-style-type: none;
-    /* background-color: #a64dff; */
-    max-width: 900px;
-    text-transform: uppercase;
-    margin:0 auto;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.menu {
     padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
     overflow: hidden;
 }
-li.menu-item {
+.menu-item {
     float: left;
-    padding: 5px 16px; 
-    color: white;
-    /* max-width: 900px; */
+    margin: 0 auto;
 }
-li.more  {
+.more {
     float: right;
-    padding:5px 60px; 
 }
-a {
-  /* float: left;
-  padding: 5px 16px; */
-  text-decoration:none;
-  color: white;
-  display: block;
+.menu-item-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
 }
-.menu-item:hover {
-    color: grey;
+.menu-item:hover .menu-item-link {
+    color: gray;
     background: whitesmoke;
-}
-.menu-item-link:hover {
-    background: whitesmoke;
-    color: grey;
 }
