@@ -168,13 +168,13 @@ strong {
 }
 .testimonial-wrapper {
     display: inline-block;
-    width: 335px;
+    width: 75%;
     margin-left: 27px;
     
     font-size: 14px;
 }
 .testimonial-author {
-    padding: 27px 0 0 0;
+    padding: 5% 0 0 0;
 }
 .project-title {
     color: #888;
