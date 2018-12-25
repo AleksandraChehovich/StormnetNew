@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.text {
+    position: relative;
+}
+.wrapper {
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 1;
+}
+.popup {
+    
+    margin:0 auto;
+    /* top:0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    /* overflow: hidden; */
+    /* z-index: 999; */
+    /* position: fixed; */
+    background: rgb(182, 182, 250);  
+    opacity: 0.95; 
+    width: 25%;
+    height: 90%;
+    border-radius: 10px;
+    
+
+}
+form {
+    padding-left: 10px;
+    font-size: 11px;
+}
+p {
+    margin: 0;
+}
+.open_popup {
+    text-decoration: none;
+    color: aqua;
+}
+.email, 
+.sex,
+.status,
+.wrapper-birth,
+.skills,
+.file,
+.comment {
+    margin-top: 15px;
+}
+input[type="submit"] {
+    background: rgb(99, 98, 98);
+    border: 2px solid gray;
+    border-radius: 3px;
+    width: 150px;
+}
+svg {
+    display: inline-block;
+    width: 15px;
+    margin-left: 91%;
+}
+.close-popup:focus svg {
+color: red;
+}
+#popup-link:target {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+/* .wrapper:after{
+    display: inline-block;
+    content: "\00d7";
+    color: black;
+} */

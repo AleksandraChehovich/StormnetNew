@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Economica');
+* {
+    font-family: 'Economica', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    box-sizing: border-box;
+    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.main-menu{
+    background-color: #a64dff;
+    
+}
+ul.menu {
+    list-style-type: none;
+    /* background-color: #a64dff; */
+    max-width: 900px;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+li.menu-item {
+    float: left;
+    padding: 5px 16px; 
+    color: white;
+    /* max-width: 900px; */
+}
+/* li.travels {
+    color:#a0a0a0;
+    background-color:#eee;
+} */
+li.more  {
+    float: right;
+    padding:5px 60px; 
+}
+a {
+  /* float: left;
+  padding: 5px 16px; */
+  text-decoration:none;
+  color: white;
+}
+.menu-item:hover {
+    color: grey;
+    background: whitesmoke;
+}
+.menu-item-link:hover {
+    background: whitesmoke;
+    color: grey;
+}

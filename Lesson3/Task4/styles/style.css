@@ -1,0 +1,10 @@
+/*td:nth-child(5n-2) {
+  background-color:#f2f2de;
+}*/
+td:nth-child(2n+3) {
+    background-color:#f2f2de;
+  }
+    tr:nth-child(even) {
+    background-color:#ddebf7;
+  }
+  

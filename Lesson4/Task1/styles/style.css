@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Economica');
+
+* {
+    /* font-family: 'Economica', sans-serif;
+    font-weight:bold;
+    font-size:14px; */
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+  background:#a64dff;
+  position: relative;
+}
+.main-menu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;text-align: center;
+    /* font-size: 0; */
+}
+.menu-item {
+display: inline-block;
+}
+.menu-item-link {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}

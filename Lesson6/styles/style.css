@@ -1,0 +1,41 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid rgb(71, 69, 69);
+    max-width: 560px;
+    text-align: center;
+    background:  rgb(71, 69, 69);
+
+}
+form {
+    padding: 45px 0 25px 0;
+}
+.heading {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: rgb(36, 35, 35);
+    margin: 0;
+}
+.comment {
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 120px;
+}
+input {
+    text-align: center;
+    font-size: 26px;
+    width: 80%;
+    height: 77px;
+    border: 2px solid  white;
+    border-radius: 40px;
+    color: white;
+    background:  rgb(71, 69, 69);
+}
+.submit {
+    background: rgb(3, 158, 3);
+}
+input:focus {
+    border: 2px solid green;
+    outline:none;
+}
