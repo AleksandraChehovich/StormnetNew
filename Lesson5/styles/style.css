@@ -23,11 +23,10 @@ body {
 }
 .page-header-menu {
     font-family: "Arial MT", sans-serif;
-    display: inline-block;
-    margin: 0 auto;  
-    position: absolute;
-    left: 52.7%;
-    bottom: 85%;
+    float: right;
+    margin-top: 33px;
+    padding: 0;
+    
     }
 a {
     text-decoration: none;
