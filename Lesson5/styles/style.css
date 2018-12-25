@@ -182,7 +182,8 @@ strong {
 }
 .project-img {
     padding: 9px 0 19px 0;
-    
+    max-width: 100%;
+    width: 100%;    
 }
 
 .link-decorated::after {
