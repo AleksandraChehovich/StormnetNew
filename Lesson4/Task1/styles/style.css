@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Economica');
 
 * {
-    /* font-family: 'Economica', sans-serif;
-    font-weight:bold;
-    font-size:14px; */
+     font-family: 'Economica', sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -15,23 +13,99 @@ body {
 }
 .main-menu {
     max-width: 900px;
-    margin: 0 auto;
+  margin: 0 auto;
+  border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
 }
 .menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;text-align: center;
-    /* font-size: 0; */
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
 }
 .menu-item {
-display: inline-block;
+    display: inline-block;
 }
 .menu-item-link {
-    text-decoration: none;
     display: inline-block;
-    text-transform: uppercase;
-    padding: 5px;
+    text-decoration: none;
     color: white;
-    font-size: 20px;
-    font-weight: 700;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 21px;
+  font-weight: 700;
 }
+.menu-item:hover .menu-item-link {
+    color: grey;
+    background: whitesmoke;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Economica');
+* {
+box-sizing:border-box;
+}
+body {
+  margin: 0;
+}
+.navigation {
+  background-color:#1aa4ff;
+  position:relative;
+  font-family: 'Economica';
+}
+.container {
+  max-width:950px;
+  margin:0 auto;
+  border-left:1px solid white;
+  border-right:1px solid white;
+}
+.city-menu-item-link,
+.menu-item-link {
+    display: inline-block;
+}
+.menu,
+.city {
+    font-size: 0;
+}
+.menu {
+  text-align:center;
+}
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  
+}
+.menu-item,
+.city-menu-item {
+  display:inline-block;
+}
+.menu-item-link {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration:none;
+  color:white;
+  text-transform:uppercase;
+  padding:10px;
+}
+/* .city {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+.city {
+    text-align: left;
+} */
+/* .city-menu-item-link {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: grey;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+} */
+.menu-item:hover .menu-item-link {
+    color: grey;
+    background: whitesmoke;
+} */
