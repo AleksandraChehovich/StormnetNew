@@ -164,13 +164,13 @@ strong {
     border: 1px solid #cccccc;
     width: 84px;
     height: 84px;
+    margin-right: 27px;
     background-color: #cccccc;
 }
 .testimonial-wrapper {
     display: inline-block;
     width: 75%;
-    margin-left: 27px;
-    
+    /* margin-left: 27px; */
     font-size: 14px;
 }
 .testimonial-author {
