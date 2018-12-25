@@ -25,6 +25,7 @@ ul.menu {
     text-transform: uppercase;
     margin:0 auto;
     padding: 0;
+    overflow: hidden;
 }
 li.menu-item {
     float: left;
@@ -32,10 +33,6 @@ li.menu-item {
     color: white;
     /* max-width: 900px; */
 }
-/* li.travels {
-    color:#a0a0a0;
-    background-color:#eee;
-} */
 li.more  {
     float: right;
     padding:5px 60px; 
@@ -45,6 +42,7 @@ a {
   padding: 5px 16px; */
   text-decoration:none;
   color: white;
+  display: block;
 }
 .menu-item:hover {
     color: grey;
