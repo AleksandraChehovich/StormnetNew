@@ -95,6 +95,11 @@ strong {
   color:#eefafe;
   box-shadow:3px 3px #c9c9c9;
 }
+@media all and (max-width:1000px) {
+.card {
+    width: 100%;
+}
+}
 .card:not(:last-child) {
     margin-right: 5%;
 }
@@ -119,6 +124,11 @@ strong {
   padding: 5%;
   width:100%;
   height: 40%;
+}
+@media all and (max-width:1000px) {
+    .card-button {
+        padding: 2%;
+    }
 }
 .two-columns {
     color: #555;
