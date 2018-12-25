@@ -160,7 +160,7 @@ strong {
 
 }
 .testimonial-avatar {
-    display: inline-block;
+    float: left;
     border: 1px solid #cccccc;
     width: 84px;
     height: 84px;
