@@ -1,7 +1,16 @@
 @font-face {
     font-family:'MyriadPro-Black';
-    src:url(./fonts/MyriadPro-Black.woff)
+    src:url(../fonts/MyriadPro-Regular.woff)
 }
+/* @font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro-Regular.woff') format('woff'),
+    url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    } */
 * {
     font-family:'MyriadPro-Black',  sans-serif;
     box-sizing: border-box;
