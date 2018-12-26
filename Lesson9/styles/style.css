@@ -15,15 +15,18 @@ body {
 .page-header-logo {
     max-width: 50px;
 }
-.page-header {
+.page-header,
+.banner-content
+ {
     max-width: 1170px;
+    margin: 0 auto;
 }
 .page-header {
     padding: 22px 0;
     background: #ffffff;
     /* color:#868686; */
     font-family: 'Lato', sans-serif;
-    margin: 0 auto;
+    
 }
 .page-heder-menu {
     list-style-type: none;
@@ -46,5 +49,10 @@ body {
     color: #ffffff;
 }
 .banner {
-    padding-bottom:13%; 
+    /* padding-top: 16%;
+    padding-bottom:13%;  */
+    background: #709dca;
+}
+.banner-content {
+    text-align: center;
 }
