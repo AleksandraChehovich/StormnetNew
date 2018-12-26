@@ -9,7 +9,7 @@
   .outer-desk {
     position:relative;
     display:inline-block;
-    width: 295px;
+    max-width: 295px;
     margin:0;
     padding:10px 3px 3px 3px;
     border-radius:7px;
@@ -29,7 +29,7 @@
     display:inline-block;
     background-color:white;
     padding:23px 14px 29px 14px;
-    width:289px;
+    width:100%;
   }
   
   .inner-desk-header {
