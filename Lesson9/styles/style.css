@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+@import url('./../fonts/GothamBlack.otf');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1170px;
+}
