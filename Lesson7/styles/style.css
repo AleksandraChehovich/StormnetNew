@@ -20,7 +20,8 @@ body {
 }
 .popup {
     
-    margin:0 auto;
+    margin:5vh auto;
+    position: relative;
     /* top:0;
     left: 0;
     bottom: 0;
@@ -30,10 +31,8 @@ body {
     /* position: fixed; */
     background: rgb(182, 182, 250);  
     opacity: 0.95; 
-    width: 25%;
-    height: 98%;
     border-radius: 10px;
-    
+    max-width: 75%;  
 
 }
 form {
