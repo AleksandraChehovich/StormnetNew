@@ -1,18 +1,18 @@
 @font-face {
-    font-family:'MyriadPro-Black';
-    src:url(../fonts/MyriadPro-Regular.woff)
+    font-family:'MyriadPro-Regular';
+    src:url(./../fonts/MyriadPro-Regular.woff)
 }
 /* @font-face {
     font-family: 'Myriad Pro Regular';
-    src: url('MyriadPro-Regular.eot');
-    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('MyriadPro-Regular.woff') format('woff'),
-    url('MyriadPro-Regular.ttf') format('truetype');
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot') format('embedded-opentype'),
+    url(../fonts/MyriadPro-Regular.woff) format('woff'),
+    url(../fonts/MyriadPro-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     } */
 * {
-    font-family:'MyriadPro-Black',  sans-serif;
+    font-family:'MyriadPro-Regular';
     box-sizing: border-box;
 }
 body {
