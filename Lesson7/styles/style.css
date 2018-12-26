@@ -19,23 +19,34 @@ body {
     opacity: 1;
 }
 .popup {
-    
     margin:5vh auto;
     position: relative;
-    /* top:0;
-    left: 0;
-    bottom: 0;
-    right: 0; */
-    /* overflow: hidden; */
-    /* z-index: 999; */
-    /* position: fixed; */
     background: rgb(182, 182, 250);  
     opacity: 0.95; 
     border-radius: 10px;
     max-width: 75%;  
-
+}
+.popup-header {
+    position: relative;
+    background: whitesmoke;
+    border-radius: 10px 10px 0 0;
+    padding: 0 10px;
+}
+.popup-header-title {
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+}
+.close-popup {
+    height: 21px;
+    width: 15px;
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
 form {
+    height: calc(90vh - 20px);
+    overflow-y: auto;
     padding-left: 10px;
     font-size: 11px;
 }
@@ -55,17 +66,22 @@ p {
 .comment {
     margin-top: 15px;
 }
+#form-comments {
+    max-width: 85%;
+}
+
+
 input[type="submit"] {
     background: rgb(99, 98, 98);
     border: 2px solid gray;
     border-radius: 3px;
     width: 150px;
 }
-svg {
+/* svg {
     display: inline-block;
     width: 15px;
     margin-left: 91%;
-}
+} */
 .close-popup:focus svg {
 color: red;
 }
