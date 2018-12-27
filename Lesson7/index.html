@@ -22,41 +22,32 @@
             </a>
             </div>
         <form name="test" method="post" action="input1.php" class="main-form">
-            <p class="name">Name
-            </p>
-            <p><input type="text" class="input-name">
-            </p>
-            <p class="email">Email
-                </p>
-            <p><input type="email" class="input-email">
-            </p>
-            <p class="sex">Sex</p>
-            <p><input type="radio" class="input-male">
+        <div class="form-item">
+            Name
+            <input type="text" class="input-name">
+        </div>
+        <div class="form-item">
+            Email
+            <input type="email" class="input-email">
+        </div>
+        <div class="form-item">
+               Sex
+               <input type="radio" class="input-male">
                <span>Male</span>
                <input type="radio" class="input-female">
                <span>Female</span>
-            </p>
-            <p class="status">
-              Current status 
-            </p>
-            <p class="wrapper-checkbox">
-                <p>
+        </div>
+        <div class="form-item">
+             Current status             
                     <input type="checkbox" class="student">
                     <span>Student</span>
-                </p>
-                <p>
                    <input type="checkbox" class="employed">
                    <span>Employed</span>
-                </p>
-                <p>
                     <input type="checkbox" class="unemployed">
                     <span>Unemployed</span>
-                </p>
-            </p>
-            <p class="wrapper-birth">
-                <p>
+        </div>
+        <div class="form-item">
                     Month and Year of birth
-                </p>
                 <select name="month-list" id="month" size="1">
                     <option value="a1">
                         september
@@ -79,12 +70,9 @@
                         2001
                     </option>
                 </select>
-            </p>
-            <p class="skills">
-               <p>
+        </div>
+        <div class="form-item">
                     Skills and Technologis
-               </p>
-               <p class="skills-container">
                    <select name="skills-list" id="skills">
                        <optgroup label="Tech skills">
                            <option value="r1">
@@ -115,24 +103,18 @@
                            </option>
                        </optgroup>
                    </select>
-               </p>
-            </p>
-            <p class="file">
-                <p>
+        </div>
+        <div class="form-item">
                     Photo
-                </p>
-                <input type="file" class="file1">
-            </p>
-            <p class="comment">
-                <p>Comments</p>
-                <p>
-                    <textarea name="comments" id="form-comments" cols="30" rows="10"></textarea>
-                </p>
-            </p>
-            <p class="submit">
+                 <input type="file" class="file1">
+        <div class="form-item">
+                Comments
+                <textarea name="comments" id="form-comments" cols="30" rows="10"></textarea>
+                
+        </div>
+        <div class="form-item">
             <input type="submit" value="Save" class="submit">
-            </p>
-
+        </div>
         </form>
        </div>
     </div>

@@ -24,7 +24,7 @@ body {
     background: rgb(182, 182, 250);  
     opacity: 0.95; 
     border-radius: 10px;
-    max-width: 75%;  
+    max-width: 350px;  
 }
 .popup-header {
     position: relative;
@@ -47,7 +47,7 @@ body {
 form {
     height: calc(90vh - 20px);
     overflow-y: auto;
-    padding-left: 10px;
+    padding: 15px;
     font-size: 11px;
 }
 p {
