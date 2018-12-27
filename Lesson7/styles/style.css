@@ -71,7 +71,6 @@ form {
 #form-comments,
 .sex,
 .status,
-.birth,
 #skills {
     width: 100%;
 }
@@ -82,10 +81,10 @@ form {
     font-size: 0;
 }
 #month {
-    width: 70%;
+    min-width: 70%;
 }
 #year {
-    width:30%;
+    min-width:30%;
 }
 .form-item {
     margin-top: 10px;
