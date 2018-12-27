@@ -50,14 +50,11 @@ form {
     padding: 15px;
     font-size: 11px;
 }
-p {
-    margin: 0;
-}
 .open_popup {
     text-decoration: none;
     color: aqua;
 }
-.email, 
+/* .email, 
 .sex,
 .status,
 .wrapper-birth,
@@ -65,17 +62,40 @@ p {
 .file,
 .comment {
     margin-top: 15px;
-}
-#form-comments {
+} */
+/* #form-comments {
     max-width: 85%;
+} */
+.input-name,
+.input-email,
+#form-comments,
+.sex,
+.status,
+.birth,
+#skills {
+    width: 100%;
 }
-
+/* input {
+    width: 100%;
+} */
+.birth {
+    font-size: 0;
+}
+#month {
+    width: 70%;
+}
+#year {
+    width:30%;
+}
+.form-item {
+    margin-top: 10px;
+}
 
 input[type="submit"] {
     background: rgb(99, 98, 98);
     border: 2px solid gray;
     border-radius: 3px;
-    width: 150px;
+    width: 100%;
 }
 /* svg {
     display: inline-block;
@@ -90,8 +110,3 @@ color: red;
     opacity: 1;
     display: block;
 }
-/* .wrapper:after{
-    display: inline-block;
-    content: "\00d7";
-    color: black;
-} */
