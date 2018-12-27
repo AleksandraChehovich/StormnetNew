@@ -21,7 +21,7 @@ body {
 }
 .page-header {
     background-color: #333333;
-    padding: 39.5px 70px;
+    /* padding: 39.5px 70px; */
     color: #eee;
 }
 .container {
@@ -29,19 +29,23 @@ body {
     margin: 0 auto;
 }
 .page-header-logo {
+    display: inline-block;
     font-size: 56px;
+    padding: 40px 0;
 }
 .page-header-menu {
     font-family: "Arial MT", sans-serif;
     float: right;
-    margin-top: 33px;
+    /* margin-top: 33px; */
     padding: 0;
+    margin: 0;
+    margin-top: 70px;
     }
-@media all and (max-width:869px) {
+/* @media all and (max-width:869px) {
     .page-header-menu {
         margin-top: -10px;
     }
-}
+} */
 a {
     text-decoration: none;
     color: #eee;
@@ -59,14 +63,19 @@ a {
     content: "--";
     padding: 1px;
 }
-
-.page-main-content {
-    padding: 30px 70px 0 70px;
+.main-heading {
+    padding-top: 40px;
 }
+/* .page-main-content {
+    margin: 40px;
+} */
 section.container {
   border-bottom:5px dotted #ccc;
   padding: 40px 0;
 }
+/* .heading {
+    padding: 70px 0 40px;
+} */
 
 
 .main-heading {
@@ -201,9 +210,12 @@ strong {
     padding: 3px;
 }
 .page-footer {
-    padding: 18px 70px;
+    /* padding: 18px 70px; */
     color: #888;
     font-size: 16px;   
+}
+.page-footer-text {
+    padding: 18px 0;
 }
 .page-footer-text-item:not(:first-child)::before {
     content: "~";
