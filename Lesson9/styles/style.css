@@ -55,10 +55,11 @@ body {
     /* background: #709dca; */
     font-family: 'Open Sans';
     color: white;
+    background: #709dca;
     /* font-size: 14px; */
 }
 .banner-content {
-    background: #709dca;
+    
     text-align: center;
 }
 .banner-header {
@@ -74,7 +75,7 @@ body {
     /* max-width: 100%; */
 }
 .form-item {
-    max-width: 25%;
+    width: 26.7%;
     padding: 18px 0 18px 41px;
     font-size: 0.7em;
     border: none;
