@@ -33,7 +33,8 @@ body {
     list-style-type: none;
     float: right;
     margin: 0;
-    padding: 30px 0;
+    /* padding: 30px 0; */
+    margin-top: 30px;
 }
 .page-header-menu-item {
     display: inline-block;
@@ -52,11 +53,53 @@ body {
 }
 .banner {
     background: #709dca;
+    font-family: 'Open Sans';
+    color: white;
+    /* font-size: 14px; */
 }
 .banner-content {
     text-align: center;
-    margin: 0;
 }
 .banner-header {
-    
+    padding-top: 110px;
+    font-family: 'Gotham Black';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+.banner-form {
+    padding: 35px 40px 350px;
+    /* max-width: 100%; */
+}
+.form-item {
+    max-width: 25%;
+    padding: 18px 0 18px 41px;
+    font-size: 0.7em;
+    border: none;
+}
+input[type="name"] {
+    background: #ffffff url(.././img/Full_name.png) no-repeat 15px;
+}
+input[type="email"] {
+    background: #ffffff url(../img/email.png) no-repeat 15px;
+}
+input[type="tell"] {
+    background: #ffffff url(../img/tell.png) no-repeat 15px;
+}
+button {
+    background: #ffbb42;
+    /* color: #ffffff;
+    text-transform: uppercase; */
+    border: none;
+    display: inline-block;
+    padding: 0;
+}
+.button {
+    display: inline-block;
+    padding: 18px 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.86em;
 }
