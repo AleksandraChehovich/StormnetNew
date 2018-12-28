@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
-@import url('./../fonts/GothamBlack.otf');
+@import url('../fonts/GothamBlack.otf');
 
 * {
     box-sizing: border-box;
@@ -57,6 +57,7 @@ body {
     color: white;
     background: #709dca;
     /* font-size: 14px; */
+    position: relative;
 }
 .banner-content {
     
@@ -104,4 +105,9 @@ button {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.86em;
+}
+.banner-img {
+    position: absolute;
+    top: 55%;
+    left: 30%;
 }
