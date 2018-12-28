@@ -52,12 +52,13 @@ body {
     color: #ffffff;
 }
 .banner {
-    background: #709dca;
+    /* background: #709dca; */
     font-family: 'Open Sans';
     color: white;
     /* font-size: 14px; */
 }
 .banner-content {
+    background: #709dca;
     text-align: center;
 }
 .banner-header {
