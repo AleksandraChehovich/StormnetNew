@@ -121,7 +121,7 @@ button {
     text-align: center;
 }
 .service-header {
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 .service-main-header {
     text-transform: uppercase;
@@ -137,18 +137,24 @@ button {
     width: 50%;
 }
 .two-columns-item {
-    padding-top: 2%;
+    padding-top: 4%;
 }
 .two-columns-item-icon {
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     width: 10%;
     top: 0;
+    /* text-align: left; */
 }
 .two-columns-item-content {
     display: inline-block;
     width: 80%;
     text-align: left;
+    font-size: 0.85em;
 }
 .two-columns-item-content-header {
     padding-bottom: 2%;
+    font-family: "Lato";
+    font-weight: 700;
+    text-transform: uppercase;
 }
