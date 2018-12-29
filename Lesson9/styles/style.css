@@ -14,7 +14,7 @@ body {
 .page-header-logo {
     max-width: 50px;
 }
-.page-header,
+.container,
 .banner-content
  {
     max-width: 1170px;
@@ -115,4 +115,7 @@ button {
 .banner-point {
     text-align: center;
     padding-bottom: 105px;
+}
+.service {
+    text-align: center;
 }
