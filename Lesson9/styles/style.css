@@ -4,6 +4,7 @@
 * {
     box-sizing: border-box;
     font-size: 14px;
+    font-family: "Open Sans";
 }
 body {
     margin: 0;
@@ -118,4 +119,36 @@ button {
 }
 .service {
     text-align: center;
+}
+.service-header {
+    padding-bottom: 3%;
+}
+.service-main-header {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 900;
+}
+.two-columns {
+    display: inline-block;
+    font-size: 0;
+}
+.two-columns-item {
+    display: inline-block;
+    width: 50%;
+}
+.two-columns-item {
+    padding-top: 2%;
+}
+.two-columns-item-icon {
+    display: inline-block;
+    width: 10%;
+    top: 0;
+}
+.two-columns-item-content {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+.two-columns-item-content-header {
+    padding-bottom: 2%;
 }
