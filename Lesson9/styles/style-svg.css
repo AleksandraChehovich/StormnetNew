@@ -37,6 +37,8 @@
 }
 .icon-renren:before {
   content: "\f18b";
+  font-size: 44px;
+  color: #709dca;
 }
 .icon-thumbs-up:before {
   content: "\e905";
@@ -52,18 +54,30 @@
 }
 .icon-dollar:before {
   content: "\e909";
+  font-size: 44px;
+  color: #709dca;
 }
 .icon-rocket:before {
   content: "\e90a";
+  font-size: 44px;
+  color: #709dca;
 }
 .icon-cog:before {
   content: "\e90b";
+  font-size: 44px;
+  color: #709dca;
 }
 .icon-graduation:before {
   content: "\e90c";
+  font-size: 44px;
+  color: #709dca;
 }
 .icon-clock:before {
   content: "\e900";
+  fill: none;
+  font-size: 44px;
+  color:#709dca;
+  /* border: 2px #709dca; */
 }
 .icon-email:before {
   content: "\e901";

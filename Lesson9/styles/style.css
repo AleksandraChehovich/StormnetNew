@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
-@import url('../fonts/GothamPro-Black.woff');
+@import url('.././fonts/GothamBlackRegular.ttf');
+/* @import url ('.') */
 
 * {
     box-sizing: border-box;
@@ -132,25 +133,25 @@ button {
 .two-columns {
     display: flex;
     flex-wrap: wrap;
-    /* display: inline-block; */
-    font-size: 0;
+    /* font-size: 0; */
+    justify-content: space-between;
+    padding-bottom: 10%;
 }
 .two-columns-item {
-    display: inline-block;
+    /* display: inline-block; */
     width: 50%;
 }
 .two-columns-item {
     padding-top: 4%;
+    display: flex;
+    /* justify-content: space-between; */
 }
 .two-columns-item-icon {
-    /* display: inline-block; */
-    float: left;
-    width: 10%;
-    top: 0;
-    /* text-align: left; */
+width: 20%;
+    
 }
 .two-columns-item-content {
-    display: inline-block;
+    /* display: inline-block; */
     width: 80%;
     text-align: left;
     font-size: 0.85em;
@@ -160,4 +161,47 @@ button {
     font-family: "Lato";
     font-weight: 700;
     text-transform: uppercase;
+}
+.about-us {
+    display: flex;
+    /* background: #ffc155; */
+    justify-content: center;
+}
+.about-us-img {
+    background: url(.././img/Layer_27.png) no-repeat;
+    width: 50%;
+}
+.about-us-content {
+    width: 50%;
+    background: #ffc155;
+    padding: 10% 13% 11% 5%;
+    /* padding-bottom: 174px; */
+}
+.about-us-header {
+    /* padding-top: 164px; */
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'GothamBlackRegular';
+}
+.about-us-text {
+    padding: 28px 0 33px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+.about-us-button {
+    border: #e7ad48 solid 2px;
+    padding: 0;
+    display: flex;
+    background: #ffc155;
+}
+.about-us-link {
+    padding: 17px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Lato";
+    text-decoration: none;
+    text-align: center;
 }
