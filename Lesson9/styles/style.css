@@ -460,3 +460,33 @@ font-size: 0.9em;
 .address-link {
     color: #ffbb42;
 }
+.footer-menu {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 68px 222px 29px;
+}
+/* .footer-menu-item {
+    display: flex;
+} */
+.footer-menu-link {
+    color: #394b50;
+    text-decoration: none;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.footer-tell {
+    color: #394b50;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.copyright {
+    background: #709dca;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+}
