@@ -397,3 +397,35 @@ width: 20%;
     font-size: 1.15em;
     font-weight: 200;
 }
+.newsletter-form {
+    padding: 2% 10% 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.newsletter-form-input {
+padding: 19px 0 19px 44px;
+border: 1px solid #cbcbcb;
+color: #a9a9a9;
+font-size: 0.9em;
+}
+.name {
+    width: 33%;
+}
+.email {
+    width: 42%;
+} 
+.newsletter-form-button {
+    display: inline-block;
+    border: none;
+    width: 23%;
+}
+.newsletter-form-button-link {
+    display: inline-block;
+    padding: 19px 52px;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+
