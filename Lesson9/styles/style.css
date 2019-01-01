@@ -380,3 +380,20 @@ width: 20%;
     color: #f78948;
     font-family: 'Lato'
 }
+.newsletter {
+    text-align: center;
+}
+.newsletter-header {
+    padding-top: 154px;
+    color: #394b50;
+}
+.newsletter-main-header {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 900;
+}
+.newsletter-secondary-header {
+    font-family: 'Open Sans';
+    font-size: 1.15em;
+    font-weight: 200;
+}
