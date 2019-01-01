@@ -43,15 +43,23 @@
 }
 .icon-thumbs-up:before {
   content: "\e905";
+  font-size: 60px;
+  color: #9ebddb;
 }
 .icon-unlock:before {
   content: "\e906";
+  font-size: 60px;
+  color: #9ebddb;
 }
 .icon-headphones:before {
   content: "\e907";
+  font-size: 60px;
+  color: #9ebddb;
 }
 .icon-cloud-upload:before {
   content: "\e908";
+  font-size: 60px;
+  color: #9ebddb;
 }
 .icon-dollar:before {
   content: "\e909";

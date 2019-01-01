@@ -279,9 +279,11 @@ width: 20%;
     padding: 16px 21px;
     font-size: 0.8em;
 }
+.works {
+    text-align: center;
+}
 .works-header {
     padding: 8% 0 4%;
-    text-align: center;
 }
 .works-main-header {
     text-transform: uppercase;
@@ -293,4 +295,58 @@ width: 20%;
     font-size: 1.15em;
     font-weight: 300;
     color: #394b50;
+}
+.works-steps {
+    display: flex;
+    justify-content: space-between;
+
+}
+.works-steps-item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+.works-steps-item-header {
+    padding: 4% 0 8%;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 1.1em;
+    color: #394b50;
+}
+.works-steps-item-content {
+    font-size: 0.8em;
+    font-family: 'Open Sans';
+    color: #7b7b7b;
+}
+.works-button {
+    margin-top: 91px;
+    margin-bottom: 150px;
+    display: inline-flex;
+}
+.works-button-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 17px 28px;
+    font-size: 0.7em;
+}
+.clients {
+    background: #ffc155;
+}
+.client-header {
+    padding: 141px 0 58px;
+    text-align: center;
+    color: #ffffff;
+}
+.clients-main-header {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 900;
+}
+.clients-secondary-header {
+    font-family: 'Open Sans';
+    font-size: 1.15em;
+    font-weight: 200;
 }
