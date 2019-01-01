@@ -334,6 +334,7 @@ width: 20%;
 }
 .clients {
     background: #ffc155;
+    padding-bottom: 160px;
 }
 .client-header {
     padding: 141px 0 58px;
@@ -349,4 +350,33 @@ width: 20%;
     font-family: 'Open Sans';
     font-size: 1.15em;
     font-weight: 200;
+}
+.client-testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    /* margin-bottom: 160px; */
+}
+.client-testimonial-item {
+    background: #ffffff;
+    width: 48%;
+    padding: 43px 30px;
+    display: flex;
+}
+.client-testimonial-item-avatar {
+    width: 121px;
+}
+.client-testimonial-item-content {
+    padding-left: 3%;
+    font-size: 0.85em;
+}
+.client-testimonial-item-auther {
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-family: 'Lato'
+}
+.testimonial-auther {
+    color: #f78948;
+    font-family: 'Lato'
 }
