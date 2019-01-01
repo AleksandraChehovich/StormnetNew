@@ -54,6 +54,10 @@
   content: "\e907";
   font-size: 60px;
   color: #9ebddb;
+  /* color: white; */
+  /* fill: white;
+  stroke: #9ebddb;
+  stroke-width: 1px; */
 }
 .icon-cloud-upload:before {
   content: "\e908";
