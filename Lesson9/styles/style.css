@@ -481,7 +481,7 @@ font-size: 0.9em;
 .footer-tell {
     color: #394b50;
     font-family: 'Lato';
-    font-size: 17px;
+    font-size: 23px;
     font-weight: 400;
     text-align: center;
 }
@@ -497,6 +497,9 @@ font-size: 0.9em;
 }
 .footer-networks-link:hover {
     color: #ffc155;
+}
+.footer-networks-link:not(:last-child) {
+    padding-right: 9px;
 }
 .copyright {
     background: #709dca;
