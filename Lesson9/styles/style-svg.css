@@ -86,7 +86,6 @@
   fill: none;
   font-size: 44px;
   color:#709dca;
-  /* border: 2px #709dca; */
 }
 .icon-email:before {
   content: "\e901";

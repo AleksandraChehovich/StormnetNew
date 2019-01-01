@@ -337,7 +337,7 @@ width: 20%;
     padding-bottom: 160px;
 }
 .client-header {
-    padding: 141px 0 58px;
+    padding: 141px 0 4%;
     text-align: center;
     color: #ffffff;
 }
@@ -356,13 +356,13 @@ width: 20%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    /* margin-bottom: 160px; */
 }
 .client-testimonial-item {
     background: #ffffff;
     width: 48%;
     padding: 43px 30px;
     display: flex;
+    margin-top: 2%;
 }
 .client-testimonial-item-avatar {
     width: 121px;
