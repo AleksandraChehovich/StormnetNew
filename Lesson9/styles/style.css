@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
-@import url('.././fonts/GothamBlackRegular.ttf');
+@font-face {
+    font-family: 'GothamPro-Black';
+    src: url(../fonts/GothamPro-Black.woff);
+}
 /* @import url ('.') */
 
 * {
@@ -65,13 +68,21 @@ body {
     margin-bottom: 87px;
     /* text-align: center; */
 }
-.banner-header {
-    padding-top: 110px;
+.main-header {
     font-family: 'GothamPro-Black';
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner-header {
+    padding-top: 110px;
     font-size: 35px;
     color: white;
+}
+.sec-header {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 300;
 }
 .banner-form {
     padding: 35px 40px 350px;
@@ -110,10 +121,17 @@ button {
     text-decoration: none;
     font-size: 0.86em;
 }
+/* .banner-img-wrapper {
+    display: flex;
+    justify-content: center;
+} */
 .banner-img {
     position: absolute;
     top: 55%;
     left: 30%;
+}
+.banner-img-screen {
+    display: none;
 }
 .banner-point {
     margin: 0 auto;
@@ -130,17 +148,21 @@ button {
 .banner-point-item:hover {
     border: 1px solid #1ca8dd;
 }
+.banner-point-item:hover .banner-img-screen {
+    display: block;
+
+}
 .service {
     text-align: center;
 }
 .service-header {
     padding-bottom: 1%;
 }
-.service-main-header {
+/* .service-main-header {
     text-transform: uppercase;
     font-size: 2.1em;
     font-weight: 900;
-}
+} */
 .two-columns {
     display: flex;
     flex-wrap: wrap;
@@ -190,11 +212,7 @@ width: 20%;
 }
 .about-us-header {
     /* padding-top: 164px; */
-    text-transform: uppercase;
     color: white;
-    font-size: 1.5em;
-    font-weight: 400;
-    font-family: 'GothamBlackRegular';
 }
 .about-us-text {
     padding: 28px 0 33px;
@@ -223,11 +241,11 @@ width: 20%;
   padding: 7% 0 1%;
   text-align: center;
 }
-.price-main-header {
+/* .price-main-header {
     text-transform: uppercase;
     font-size: 2.1em;
     font-weight: 900;
-}
+} */
 .price-secondary-header {
     font-family: 'Lato';
     font-size: 1.15em;
@@ -296,11 +314,11 @@ width: 20%;
 .works-header {
     padding: 8% 0 4%;
 }
-.works-main-header {
+/* .works-main-header {
     text-transform: uppercase;
     font-size: 2.1em;
     font-weight: 900;
-}
+} */
 .works-secondary-header {
     font-family: 'Lato';
     font-size: 1.15em;
@@ -352,16 +370,16 @@ width: 20%;
     text-align: center;
     color: #ffffff;
 }
-.clients-main-header {
+/* .clients-main-header {
     text-transform: uppercase;
     font-size: 2.1em;
     font-weight: 900;
-}
-.clients-secondary-header {
+} */
+/* .clients-secondary-header {
     font-family: 'Open Sans';
     font-size: 1.15em;
     font-weight: 200;
-}
+} */
 .client-testimonial {
     display: flex;
     flex-wrap: wrap;
@@ -398,16 +416,16 @@ width: 20%;
     padding-top: 154px;
     color: #394b50;
 }
-.newsletter-main-header {
+/* .newsletter-main-header {
     text-transform: uppercase;
     font-size: 2.1em;
     font-weight: 900;
-}
-.newsletter-secondary-header {
+} */
+/* .newsletter-secondary-header {
     font-family: 'Open Sans';
     font-size: 1.15em;
     font-weight: 200;
-}
+} */
 .newsletter-form {
     padding: 2% 10% 4%;
     display: flex;
