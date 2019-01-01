@@ -428,4 +428,35 @@ font-size: 0.9em;
     text-decoration: none;
     color: #ffffff;
 }
-
+.map-wrapper {
+    padding: 0 34px;
+    text-align: center;
+}
+.map-container {
+    /* text-align: center; */
+    padding-top: 40px;
+    padding-bottom: 220px;
+    background: url(.././img/Layer_13.png);
+}
+.address {
+    width: 280px;
+    padding: 67px 67px 89px;
+    margin: 0 auto;
+    background: url(.././img/address-img.png);
+    margin-bottom: 6px;
+}
+.address-header {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-family: 'Lato';
+}
+.address-content {
+    color: #aeb7ba;
+    padding-bottom: 8px;
+    line-height: 22px;
+}
+.address-link {
+    color: #ffbb42;
+}
