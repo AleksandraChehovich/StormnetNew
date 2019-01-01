@@ -466,6 +466,7 @@ font-size: 0.9em;
     display: flex;
     justify-content: space-between;
     padding: 68px 222px 29px;
+    text-align: center;
 }
 /* .footer-menu-item {
     display: flex;
@@ -484,9 +485,23 @@ font-size: 0.9em;
     font-weight: 400;
     text-align: center;
 }
+.footer-networks {
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 52px;
+}
+.footer-networks-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: #709dca;
+}
+.footer-networks-link:hover {
+    color: #ffc155;
+}
 .copyright {
     background: #709dca;
     color: #ffffff;
     text-align: center;
     font-size: 0.9em;
+    padding: 19px 0;
 }
