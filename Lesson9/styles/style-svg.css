@@ -94,7 +94,7 @@
   fill: none;
   font-size: 45px;
   color:white;
-  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+  text-shadow: #f6772c 0 0 2px, #f6772c 0 0 2px,  #f6772c 0 0 2px, #f6772c 0 0 2px, #f6772c 0 0 2px;
 }
 .icon-email:before {
   content: "\e901";
@@ -104,4 +104,5 @@
 }
 .icon-phone:before {
   content: "\e903";
+  font-size: 27px;
 }
