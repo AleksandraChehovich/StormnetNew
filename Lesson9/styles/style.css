@@ -243,7 +243,7 @@ width: 20%;
     background: #e7edf3;
 }
 .price-header {
-  padding: 7% 0 1%;
+  padding: 10% 0 1%;
   text-align: center;
 }
 /* .price-main-header {
@@ -260,7 +260,7 @@ width: 20%;
 .price-card-wrapper {
     display: flex;
     justify-content: center;
-    padding: 2% 0 10%;
+    padding: 5% 0 10%;
 }
 .price-card {
     padding: 57px 31px 48px;
@@ -270,16 +270,19 @@ width: 20%;
     font-family: 'Lato';
     background: #ffffff;
     width: 33.3%;
+    border-radius: 5px;
 }
 .price-card-header {
     font-size: 1.3em;
 }
 .price-card-summ {
-    padding: 30px 0;
+    padding: 7% 0;
 }
 .price-card-quantity {
+    font-family: 'Lato';
     color: #ffbb42;
     font-size: 4em;
+    font-weight: bold;
 }
 .price-card-currency {
     font-size: 0.5em;
@@ -313,12 +316,26 @@ width: 20%;
     padding: 16px 21px;
     font-size: 0.8em;
 }
+.price-card:hover {
+    background: #709dca;
+    color: #ffffff;
+    transform: scale(1, 1.13);
+}
+.price-card:hover .price-card-item {
+    transform: scale(1);
+}
+.price-card:hover .price-card-quantity {
+    color: #ffffff;
+}
+.price-card:hover .price-card-opportunities {
+    color: #c2e1ff;
+}
 .works {
     position: relative;
     text-align: center;
 }
 .works-header {
-    padding: 9% 0 7%;
+    padding: 12% 0 7%;
 }
 /* .works-main-header {
     text-transform: uppercase;
@@ -333,11 +350,11 @@ width: 20%;
 }
 .works-steps-arrow {
     position: absolute;
-    top: 28%;
+    top: 30%;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 12vh;
+    height: 13vh;
     max-width: 66%;
     margin: 0 auto;
     display: flex;
@@ -382,7 +399,7 @@ width: 20%;
     text-transform: uppercase;
     color: white;
     padding: 17px 28px;
-    font-size: 0.7em;
+    font-size: 13px;
 }
 .clients {
     background: #ffc155;
@@ -479,6 +496,7 @@ font-size: 0.9em;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
+    width: 100%;
 }
 .map-wrapper {
     padding: 0 34px;
