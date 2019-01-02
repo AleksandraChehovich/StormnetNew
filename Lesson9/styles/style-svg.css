@@ -37,58 +37,64 @@
 }
 .icon-renren:before {
   content: "\f18b";
-  font-size: 44px;
-  color: #709dca;
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-thumbs-up:before {
   content: "\e905";
   font-size: 60px;
-  color: #9ebddb;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-unlock:before {
   content: "\e906";
   font-size: 60px;
-  color: #9ebddb;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-headphones:before {
   content: "\e907";
   font-size: 60px;
-  color: #9ebddb;
-  /* color: white; */
-  /* fill: white;
-  stroke: #9ebddb;
-  stroke-width: 1px; */
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-cloud-upload:before {
   content: "\e908";
   font-size: 60px;
-  color: #9ebddb;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-dollar:before {
   content: "\e909";
-  font-size: 44px;
-  color: #709dca;
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-rocket:before {
   content: "\e90a";
-  font-size: 44px;
-  color: #709dca;
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-cog:before {
   content: "\e90b";
-  font-size: 44px;
-  color: #709dca;
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-graduation:before {
   content: "\e90c";
-  font-size: 44px;
-  color: #709dca;
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-clock:before {
   content: "\e900";
   fill: none;
-  font-size: 44px;
-  color:#709dca;
+  font-size: 45px;
+  color:white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
 }
 .icon-email:before {
   content: "\e901";
