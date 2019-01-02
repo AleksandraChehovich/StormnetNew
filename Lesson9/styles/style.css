@@ -333,11 +333,11 @@ width: 20%;
 }
 .works-steps-arrow {
     position: absolute;
-    top: 30%;
+    top: 28%;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 8vh;
+    height: 12vh;
     max-width: 66%;
     margin: 0 auto;
     display: flex;
