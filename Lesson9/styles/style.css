@@ -516,7 +516,7 @@ font-size: 0.9em;
 }
 .address {
     width: 280px;
-    padding: 67px 67px 89px;
+    padding: 20% 20% 33%;
     margin: 0 auto;
     background: url(.././img/address-img.png);
     background-size: 100%;
