@@ -477,10 +477,15 @@ width: 20%;
     font-size: 35px;
     /* transform: rotate(90deg); */
     transform: scale(1, -1);
-    top: 58px;
+    top: 65%;
     left: 195px;
     color: #7b7b7b;
 }
+/* @media (max-width: 1024px) {
+    .client-testimonial-item-text::after {
+        top: 65px;
+    }
+} */
 .client-testimonial-item-auther {
     padding-top: 5%;
     text-transform: uppercase;
