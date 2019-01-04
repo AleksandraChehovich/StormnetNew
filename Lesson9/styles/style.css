@@ -273,7 +273,7 @@ width: 20%;
     border-radius: 5px;
 }
 .price-card-header {
-    font-size: 1.3em;
+    font-size: 18px;
 }
 .price-card-summ {
     padding: 7% 0;
@@ -326,9 +326,13 @@ width: 20%;
 }
 .price-card:hover .price-card-quantity {
     color: #ffffff;
+    font-size: 3.4em;
 }
 .price-card:hover .price-card-opportunities {
     color: #c2e1ff;
+}
+..price-card:hover .price-card-header {
+    font-size: 16px;
 }
 .works {
     position: relative;
