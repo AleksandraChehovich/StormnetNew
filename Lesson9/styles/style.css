@@ -440,6 +440,19 @@ width: 20%;
     padding-left: 3%;
     font-size: 0.85em;
 }
+.client-testimonial-item-text {
+    position: relative;
+}
+.client-testimonial-item-text::before {
+    /* position: absolute; */
+    content: '\201C';
+    font-size: 25px;
+}
+.client-testimonial-item-text::after {
+    position: absolute;
+    content: '\201d';
+    font-size: 25px;
+}
 .client-testimonial-item-auther {
     padding-top: 5%;
     text-transform: uppercase;
