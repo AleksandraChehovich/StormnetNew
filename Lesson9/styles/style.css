@@ -551,9 +551,18 @@ font-size: 0.9em;
     background-size: 100%;
     position: relative;
 }
+/* @media (max-width: 1024px) {
+    address-img-item {
+        width: 70%;
+    }
+    .address-logo {
+       bottom: 51%;
+    }
+} */
 .address-logo {
     position: absolute;
     left: 37%;
+    /* bottom: 56%; */
 }
 .address {
     width: 280px;
@@ -562,6 +571,7 @@ font-size: 0.9em;
     background: url(.././img/address-img.png);
     background-size: 100%;
     margin-bottom: 6px;
+    /* font-size: 12px; */
 }
 .address-header {
     text-transform: uppercase;
@@ -569,11 +579,13 @@ font-size: 0.9em;
     font-weight: 400;
     padding-bottom: 10px;
     font-family: 'Lato';
+    /* font-size: 12px; */
 }
 .address-content {
     color: #aeb7ba;
     padding-bottom: 8px;
     line-height: 22px;
+    /* font-size: 12px; */
 }
 .address-link {
     color: #ffbb42;
