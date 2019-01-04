@@ -354,12 +354,25 @@ width: 20%;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 13vh;
+    height: 12vh;
     max-width: 66%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+@media (max-width: 1024px) {
+    .works-steps-arrow {
+        top: 23%;
+        /* height: 8vh; */
+    }  
+}
+@media (max-width: 770px) {
+    .arrow {
+        width: 90px;
+        /* height: 10vh; */
+        top: 5%;
+    }
 }
 .bottom {
     align-self: flex-end;
