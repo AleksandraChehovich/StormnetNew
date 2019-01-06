@@ -3,8 +3,6 @@
     font-family: 'GothamPro-Black';
     src: url(../fonts/GothamPro-Black.woff);
 }
-/* @import url ('.') */
-
 * {
     box-sizing: border-box;
     font-size: 14px;
@@ -30,14 +28,13 @@ body {
 .page-header {
     /* padding: 22px 0; */
     background: #ffffff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     display: flex;
     justify-content: space-between;
     align-items: center;
 }  
 .page-heder-menu {
     list-style-type: none;
-    float: right;
     margin: 0;
 }
 .page-header-menu-item {
@@ -354,11 +351,11 @@ width: 20%;
 }
 .works-steps-arrow {
     position: absolute;
-    top: 30%;
+    top: 28%;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 12vh;
+    height: 22vh;
     max-width: 66%;
     margin: 0 auto;
     display: flex;
@@ -367,17 +364,25 @@ width: 20%;
 }
 @media (max-width: 1024px) {
     .works-steps-arrow {
-        top: 23%;
+        top: 25%;
         /* height: 8vh; */
     }  
 }
-@media (max-width: 770px) {
-    .arrow {
-        width: 90px;
-        /* height: 10vh; */
-        top: 5%;
-    }
+@media (max-width: 860px) {
+    .works-steps-arrow {
+         height: 19vh;
+    }  
 }
+ @media (max-width: 770px) {
+    .arrow {
+        width: 50px;
+        /* height: 10vh; */
+        /* top: 5%; */
+    }
+    .works-steps-arrow {
+        height: 10vh;
+    }
+} 
 .bottom {
     align-self: flex-end;
 }
@@ -553,21 +558,13 @@ font-size: 0.9em;
     text-align: center;
 }
 .map-container {
-    /* text-align: center; */
+    text-align: center;
     padding-top: 3.3%;
     padding-bottom: 50%;
     background: url(.././img/MAP.jpg) no-repeat;
     background-size: 100%;
     position: relative;
 }
-/* @media (max-width: 1024px) {
-    address-img-item {
-        width: 70%;
-    }
-    .address-logo {
-       bottom: 51%;
-    }
-} */
 
 .footer-menu {
     margin: 0;
@@ -575,11 +572,8 @@ font-size: 0.9em;
     display: flex;
     justify-content: space-between;
     padding: 68px 222px 29px;
-    text-align: center;
 }
-/* .footer-menu-item {
-    display: flex;
-} */
+
 .footer-menu-link {
     color: #394b50;
     text-decoration: none;
