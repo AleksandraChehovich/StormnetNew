@@ -526,12 +526,13 @@ width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    /* font-size: 0.7em; */
 }
 .newsletter-form-input {
 padding: 19px 0 19px 44px;
 border: 1px solid #cbcbcb;
 color: #a9a9a9;
-font-size: 0.9em;
+font-size: 0.7em;
 }
 .name {
     width: 33%;
@@ -543,6 +544,7 @@ font-size: 0.9em;
     display: inline-block;
     border: none;
     width: 23%;
+    font-size: 0.7em;
 }
 .newsletter-form-button-link {
     display: inline-block;
