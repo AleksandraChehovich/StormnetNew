@@ -172,6 +172,14 @@ button {
     /* display: inline-block; */
     width: 50%;
 }
+@media (max-width: 680px) {
+    .two-columns-item {
+        width: 100%;
+    }
+    banner-img {
+        width: 300px;
+    }
+}
 .two-columns-item {
     padding-top: 4%;
     display: flex;
