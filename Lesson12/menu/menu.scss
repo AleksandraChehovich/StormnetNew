@@ -1,0 +1,12 @@
+.menu {
+        
+    &__item {
+        display: inline-block;
+        list-style-type: none;
+            }
+            &__item-link {
+                color: $text-color2;
+                padding: 10px 21px;
+            }
+} 
+

@@ -1,0 +1,10 @@
+.top-header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item-link_view_active:hover {
+    background: $logo-color1;
+    color: $ground-color;
+}

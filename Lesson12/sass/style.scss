@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import "./variables.scss";
+
+@import "../header/header.scss";
+
+@import "../logo/logo.scss";
+
+@import "../menu/menu.scss";
+
+@import "../link/link.scss";
+
+@import "../banner/banner.scss";
+
