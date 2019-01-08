@@ -1,8 +1,17 @@
 .banner {
     background: $logo-color2;
     text-align: center;
-}
 
-.banner__header {
-    padding: 7% 0 2%;
+    &__header {
+        padding: 7% 0 2%;
+    }
+
+    &__form {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+.form__input {
+    width: 26.7%;
+    border: none;
 }

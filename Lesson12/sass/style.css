@@ -65,6 +65,16 @@ body {
   padding: 7% 0 2%;
 }
 
+.banner__form {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.form__input {
+  width: 26.7%;
+  border: none;
+}
+
 .header {
   color: #fff;
 }
@@ -76,5 +86,39 @@ body {
 
 .header__secondary-header {
   font-size: 12.1px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.input-name {
+  padding: 18px 0 18px 41px;
+  background: #fff url(../img/Full_name.png) no-repeat 15px;
+  font-size: 11px;
+  color: #7b7b7b;
+}
+
+.input-email {
+  padding: 18px 0 18px 41px;
+  background: #fff url(../img/email.png) no-repeat 15px;
+  font-size: 11px;
+  color: #7b7b7b;
+}
+
+.input-tell {
+  padding: 18px 0 18px 41px;
+  background: #fff url(../img/tell.png) no-repeat 15px;
+  font-size: 11px;
+  color: #7b7b7b;
 }
 /*# sourceMappingURL=style.css.map */
