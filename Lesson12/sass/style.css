@@ -60,4 +60,21 @@ body {
   background: #709dca;
   text-align: center;
 }
+
+.banner__header {
+  padding: 7% 0 2%;
+}
+
+.header {
+  color: #fff;
+}
+
+.header__first-header {
+  font-size: 27.5px;
+  font-family: 'GothamPro-Black';
+}
+
+.header__secondary-header {
+  font-size: 12.1px;
+}
 /*# sourceMappingURL=style.css.map */

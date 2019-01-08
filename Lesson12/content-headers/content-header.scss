@@ -1,0 +1,11 @@
+.header {
+    color: $ground-color;
+}
+.header__first-header {
+    font-size: ($size-normal*2.5);
+    font-family: 'GothamPro-Black';
+}
+
+.header__secondary-header {
+    font-size: ($size-normal*1.1);
+}
