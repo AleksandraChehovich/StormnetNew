@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "price.scss"
+    ],
+    "names": [],
+    "file": "price.css"
+}

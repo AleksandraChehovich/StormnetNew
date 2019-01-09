@@ -1,0 +1,12 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__img {
+  background: url(../img/Layer_27.png) no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+}
+/*# sourceMappingURL=about.css.map */

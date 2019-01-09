@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+
+    &__img {
+        background: url(../img/Layer_27.png) no-repeat;
+        background-size: 100% 100%;
+        width: 50%;
+    }
+
+    &__content {
+        width: 50%;
+    background: $logo-color1;
+    padding: 10% 13% 11% 5%;
+    }
+
+    &__header {
+        text-align: left;
+        padding-bottom: 2%;
+    }
+}
+
+.about__text {
+    color: $ground-color;
+    font-size: $size-normal;
+    line-height: 24px;
+}
+

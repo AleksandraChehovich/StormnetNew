@@ -1,0 +1,72 @@
+.price {
+    background: $ground-color2;
+
+    &__header
+    {
+        color: $text-color1;
+        padding-top: 10%;
+        padding-bottom: 4%;
+    }
+
+    &__card {
+        display: flex;
+    justify-content: center;
+    padding-bottom: 6%;
+    }
+}
+
+.card {
+    padding: 57px 31px 48px;
+    text-align: center;
+    color: #818b95;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    background: #ffffff;
+    width: 33.3%;
+    border-radius: 5px;
+
+    &__header {
+        font-size: $size-normal*1.6;
+    }
+
+    &__summ {
+        padding: 7% 0;
+    }
+
+    &__quantity {
+        font-family: 'Lato';
+    color: $logo-color1;
+    font-size: $size-normal*4;
+    font-weight: bold;
+    }
+}
+
+.card__currency {
+    font-size: $size-normal;
+    position: relative;
+    top: -0.8em;
+    right: -3px;
+}
+
+.card__opportunities {
+    list-style-type: none;
+    color: #b5bbc1;
+    padding: 0;
+    margin: 0;
+ }
+
+.card__opportunities-item {
+    border-top: #e2e9f0 solid 1px;
+    padding: 3px;
+}
+
+.card__button {
+    margin-top: 9%;
+    width: 50%;
+}
+
+.cards__item_active:hover {
+    background: $logo-color2;
+    color: $ground-color;
+    transform: scale(1, 1.13);
+}

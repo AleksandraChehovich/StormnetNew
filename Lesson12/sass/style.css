@@ -76,11 +76,13 @@ body {
 
 .header {
   color: #fff;
+  text-align: center;
 }
 
 .header__first-header {
   font-size: 25px;
   font-family: 'GothamPro-Black';
+  text-transform: uppercase;
 }
 
 .header__secondary-header {
@@ -141,7 +143,7 @@ body {
 .points {
   margin: 0 auto;
   padding-top: 6%;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,5 +162,154 @@ body {
 
 .points__item_active:hover {
   border: 1px solid #709dca;
+}
+
+.service__header {
+  color: #394b50;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.opportunities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10%;
+}
+
+.opportunities__item {
+  padding-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.opportunities__icon {
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  width: 20%;
+}
+
+.opportunities__content {
+  font-size: 10px;
+}
+
+.opportunities__header {
+  padding-bottom: 2%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__img {
+  background: url(../img/Layer_27.png) no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+}
+
+.about__content {
+  width: 50%;
+  background: #ffbb42;
+  padding: 10% 13% 11% 5%;
+}
+
+.about__header {
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+.about__text {
+  color: #fff;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.price {
+  background: #e7edf3;
+}
+
+.price__header {
+  color: #394b50;
+  padding-top: 10%;
+  padding-bottom: 4%;
+}
+
+.price__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 6%;
+}
+
+.card {
+  padding: 57px 31px 48px;
+  text-align: center;
+  color: #818b95;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  background: #ffffff;
+  width: 33.3%;
+  border-radius: 5px;
+}
+
+.card__header {
+  font-size: 16px;
+}
+
+.card__summ {
+  padding: 7% 0;
+}
+
+.card__quantity {
+  font-family: 'Lato';
+  color: #ffbb42;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card__currency {
+  font-size: 10px;
+  position: relative;
+  top: -0.8em;
+  right: -3px;
+}
+
+.card__opportunities {
+  list-style-type: none;
+  color: #b5bbc1;
+  padding: 0;
+  margin: 0;
+}
+
+.card__opportunities-item {
+  border-top: #e2e9f0 solid 1px;
+  padding: 3px;
+}
+
+.card__button {
+  margin-top: 9%;
+  width: 50%;
+}
+
+.cards__item_active:hover {
+  background: #709dca;
+  color: #fff;
+  -webkit-transform: scale(1, 1.13);
+          transform: scale(1, 1.13);
 }
 /*# sourceMappingURL=style.css.map */

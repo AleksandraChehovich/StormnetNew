@@ -1,0 +1,32 @@
+
+.service__header {
+    color: $text-color1;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.opportunities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10%;
+
+    &__item {
+        padding-top: 4%;
+        display: flex;
+        width: 50%;
+    }
+
+    &__icon {
+        align-self: stretch;
+        width:20%;
+    }
+}
+.opportunities__content {
+    font-size: $size-normal;
+}
+.opportunities__header {
+    padding-bottom: 2%;
+    // font-family: $lato;
+    text-transform: uppercase;
+    font-weight: 700;
+}
