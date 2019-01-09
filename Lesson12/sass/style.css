@@ -312,4 +312,87 @@ body {
   -webkit-transform: scale(1, 1.13);
           transform: scale(1, 1.13);
 }
+
+.cards__item_active:hover .card__quantity {
+  color: #fff;
+}
+
+.work {
+  position: relative;
+  text-align: center;
+}
+
+.work__header {
+  color: black;
+  padding: 12% 0 7%;
+}
+
+.clients {
+  background: #ffbb42;
+}
+
+.clients__header {
+  padding: 12% 0 7%;
+}
+
+.testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  padding-bottom: 10%;
+}
+
+.testimonial__item {
+  background: #fff;
+  width: 48%;
+  padding: 43px 40px 50px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+}
+
+.testimonial__avatar {
+  width: 121px;
+}
+
+.testimonial__content {
+  padding-left: 6%;
+  font-size: 0.85em;
+  color: #7b7b7b;
+}
+
+.testimonial__author {
+  padding-top: 5%;
+  text-transform: uppercase;
+  font-family: 'Lato';
+}
+
+.testimonial__author_colored {
+  color: #ffbb42;
+}
+
+.newsletter__header {
+  padding: 12% 0 2%;
+  color: black;
+}
+
+.newsletter__form {
+  padding: 2% 10% 4%;
+}
+
+.form__input_size_m {
+  width: 35%;
+}
+
+.form__button_size_m {
+  width: 27%;
+}
 /*# sourceMappingURL=style.css.map */

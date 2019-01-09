@@ -1,0 +1,43 @@
+.clients {
+    background: $logo-color1;
+
+    &__header {
+        padding: 12% 0 7%;
+    }
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding-bottom: 10%;
+
+    &__item {
+        background: $ground-color;
+    width: 48%;
+    padding: 43px 40px 50px 30px;
+    display: flex;
+    margin-top: 2%;
+    }
+
+    &__avatar {
+        width: 121px;
+    }
+
+    &__content {
+        padding-left: 6%;
+    font-size: 0.85em;
+    color: #7b7b7b;
+    }
+ }
+
+.testimonial__author  {
+    padding-top: 5%;
+    text-transform: uppercase;
+    font-family: 'Lato';
+  }
+
+  .testimonial__author_colored {
+      color: $logo-color1;
+  }

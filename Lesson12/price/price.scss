@@ -70,3 +70,7 @@
     color: $ground-color;
     transform: scale(1, 1.13);
 }
+
+.cards__item_active:hover .card__quantity {
+    color: $ground-color;
+}
