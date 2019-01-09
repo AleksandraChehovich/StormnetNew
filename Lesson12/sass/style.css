@@ -395,4 +395,11 @@ body {
 .form__button_size_m {
   width: 27%;
 }
+
+.map__content {
+  padding: 0 3%;
+  background: url(../img/MAP.jpg) no-repeat;
+  background-size: 100%;
+  padding-bottom: 50%;
+}
 /*# sourceMappingURL=style.css.map */
