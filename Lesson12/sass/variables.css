@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=variables.css.map */
+@font-face {
+  font-family: "GothamPro-Black";
+  font-family: "Lato-Regular";
+  font-family: "OpenSans-Regular";
+  font-family: "FontAwesome";
+  src: url("../fonts/GothamPro-Black.woff") format("woff");
+  src: url("../fonts/Lato-Regular.woff") format("woff");
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+  src: url("../fonts/FontAwesome.woff") format("woff");
+}
+/*# sourceMappingURL=variables.css.map */

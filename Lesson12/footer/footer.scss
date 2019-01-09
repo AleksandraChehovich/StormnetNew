@@ -1,0 +1,16 @@
+.footer {
+    text-align: center;
+
+    &__copyright {
+        background: $logo-color2;
+        color: $ground-color;
+        font-size: $size-normal*1.2;
+        padding: 19px 0;
+    }
+
+    &__social {
+        padding-top: 2%;
+    padding-bottom: 4%;
+    }
+}
+
