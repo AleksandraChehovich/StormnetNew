@@ -52,11 +52,12 @@ body {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 10px;
   font-family: 'Lato-Regular';
 }
 
 .banner {
+  position: relative;
   background: #709dca;
   text-align: center;
 }
@@ -66,8 +67,11 @@ body {
 }
 
 .banner__form {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 0 3% 30%;
+}
+
+.form__input {
+  width: 27%;
 }
 
 .header {
@@ -75,12 +79,12 @@ body {
 }
 
 .header__first-header {
-  font-size: 27.5px;
+  font-size: 25px;
   font-family: 'GothamPro-Black';
 }
 
 .header__secondary-header {
-  font-size: 12.1px;
+  font-size: 11px;
 }
 
 .form {
@@ -91,29 +95,70 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 100%;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 .input-name {
   padding: 18px 0 18px 41px;
   background: #fff url(../img/Full_name.png) no-repeat 15px;
-  font-size: 11px;
+  font-size: 10px;
   color: #7b7b7b;
 }
 
 .input-email {
   padding: 18px 0 18px 41px;
   background: #fff url(../img/email.png) no-repeat 15px;
-  font-size: 11px;
+  font-size: 10px;
   color: #7b7b7b;
 }
 
 .input-tell {
   padding: 18px 0 18px 41px;
   background: #fff url(../img/tell.png) no-repeat 15px;
-  font-size: 11px;
+  font-size: 10px;
   color: #7b7b7b;
+}
+
+.button {
+  display: inline-block;
+  padding: 0;
+  background: #ffbb42;
+  border: none;
+}
+
+.button__link {
+  color: #fff;
+  padding: 18px 44px;
+}
+
+.screen {
+  position: absolute;
+  top: 37%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.points {
+  margin: 0 auto;
+  padding-top: 6%;
+  padding-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+}
+
+.points__item {
+  padding: 6px;
+  border: 1px solid #dedfe0;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.points__item_active:hover {
+  border: 1px solid #709dca;
 }
 /*# sourceMappingURL=style.css.map */

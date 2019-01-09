@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,MAAM,EAAE,MAAM;EACd,cAAc,EAAE,GAAG;EACnB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAQ1B;;AANI,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "points.scss"
+    ],
+    "names": [],
+    "file": "points.css"
+}

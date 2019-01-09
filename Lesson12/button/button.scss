@@ -1,0 +1,11 @@
+.button {
+    display: inline-block;
+    padding: 0;
+    background: #ffbb42;
+    border: none;
+
+    &__link {
+        color: $ground-color;
+        padding: 18px 44px;
+    }
+}

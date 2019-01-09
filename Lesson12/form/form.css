@@ -6,8 +6,5 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 100%;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 /*# sourceMappingURL=form.css.map */

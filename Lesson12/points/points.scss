@@ -1,0 +1,19 @@
+.points {
+    margin: 0 auto;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    background: $ground-color;
+
+    &__item {
+        padding: 6px;
+        border: 1px solid #dedfe0;
+        border-radius: 50%;
+        margin: 0 5px;
+    }
+}
+
+.points__item_active:hover {
+    border: 1px solid $logo-color2;
+}
