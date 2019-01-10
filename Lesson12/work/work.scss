@@ -1,4 +1,4 @@
-// @import "../sass/variables.scss";
+@import "../sass/variables.scss";
 
 .work {
     position: relative;
@@ -48,8 +48,13 @@
     &__header {
         padding: 25% 0 8%;
     text-transform: uppercase;
-    font-family: 'Lato';
-    font-size: 1.1em;
+    font-family: $lato;
+    font-size: $size-normal*1.7;
     color: #394b50;
+    }
+
+    &__text {
+        font-family: $sans;
+        font-size: $size-normal*1.1;
     }
 }

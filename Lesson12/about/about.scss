@@ -12,7 +12,7 @@
     &__content {
         width: 50%;
     background: $logo-color1;
-    padding: 10% 13% 11% 5%;
+    padding: 10% 4% 11% 5%;
     }
 
     &__header {
@@ -23,13 +23,15 @@
 .about {
     &__text {
         color: $ground-color;
-        font-size: $size-normal;
+        font-size: $size-normal*1.1;
+        font-family: $sans;
         line-height: 24px;
     }
 
     &__button {
-        border: px solid black;
-        width: 70%;
+        border: 1px solid #e7ad48;
+        width: 35%;
+
     }
 }
  

@@ -1,3 +1,4 @@
+@import "../sass/variables.scss";
 
 .clients {
     background: $logo-color1;
@@ -30,13 +31,14 @@
         padding-left: 6%;
     font-size: 0.85em;
     color: #7b7b7b;
+    font-family: $sans;
     }
  }
 
 .testimonial__author  {
     padding-top: 5%;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: $lato;
   }
 
   .testimonial__author_colored {

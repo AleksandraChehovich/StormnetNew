@@ -33,7 +33,7 @@
 .about__content {
   width: 50%;
   background: #ffbb42;
-  padding: 10% 13% 11% 5%;
+  padding: 10% 4% 11% 5%;
 }
 
 .about__header {
@@ -43,12 +43,13 @@
 
 .about__text {
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
+  font-family: "OpenSans-Regular";
   line-height: 24px;
 }
 
 .about__button {
-  border: px solid black;
-  width: 70%;
+  border: 1px solid #e7ad48;
+  width: 35%;
 }
 /*# sourceMappingURL=about.css.map */

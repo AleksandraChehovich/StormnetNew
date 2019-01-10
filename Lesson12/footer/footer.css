@@ -1,9 +1,21 @@
 @font-face {
   font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
   font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
   font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
   font-family: 'FontAwesome';
-  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .footer {
@@ -22,17 +34,10 @@
   padding-bottom: 4%;
 }
 
-.social__icon {
-  color: #709dca;
-  text-decoration: none;
-}
-
-.social__icon:hover {
-  color: #ffbb42;
-}
-
 .footer__phone {
   font-size: 23px;
+  font-family: "Lato-Regular";
+  color: #394b50;
   font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,8 +47,23 @@
           justify-content: center;
 }
 
+.social__icon {
+  color: #709dca;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.social__icon:hover {
+  color: #ffbb42;
+}
+
 .icon-phone {
   font-size: 30px;
   margin-right: 10px;
+  color: #394b50;
+}
+
+.footer__copyright {
+  font-family: "OpenSans-Regular";
 }
 /*# sourceMappingURL=footer.css.map */

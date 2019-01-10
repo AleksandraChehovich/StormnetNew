@@ -1,9 +1,9 @@
-// @import "../sass/variables.scss";
+@import "../sass/variables.scss";
 
 .link {
     // display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: $size-normal;
-    font-family: 'Lato-Regular';
+    font-size: $size-normal*1.3;
+    font-family: $lato;
 }

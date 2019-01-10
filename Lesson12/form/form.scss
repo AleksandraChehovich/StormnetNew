@@ -1,4 +1,4 @@
-
+@import "../sass/variables.scss";
 .form {
     display: flex;
     justify-content: space-between;
@@ -6,5 +6,6 @@
 
     &__input {
         border: 1px solid $logo-color2;
+        font-family: $sans;
     }
 }

@@ -1,3 +1,5 @@
+@import "../sass/variables.scss";
+
 .price {
     background: $ground-color2;
 
@@ -12,6 +14,7 @@
         display: flex;
     justify-content: center;
     padding-bottom: 6%;
+
     }
 }
 
@@ -20,7 +23,7 @@
     text-align: center;
     color: #818b95;
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: $lato;
     background: #ffffff;
     width: 33.3%;
     border-radius: 5px;
@@ -31,10 +34,11 @@
 
     &__summ {
         padding: 7% 0;
+        font-family: $lato;
     }
 
     &__quantity {
-        font-family: 'Lato';
+    
     color: $logo-color1;
     font-size: $size-normal*4;
     font-weight: bold;

@@ -1,3 +1,4 @@
+@import "../sass/variables.scss";
 
 .footer {
     text-align: center;
@@ -12,26 +13,36 @@
     &__social {
         padding-top: 2%;
     padding-bottom: 4%;
-    // color: $logo-color2;
+    
     }
-}
 
-.social__icon {
-    color: $logo-color2;
-    text-decoration: none;
-}
-.social__icon:hover {
-    color: $logo-color1;
-}
-
-.footer__phone {
-    font-size: $size-normal*2.3;
+    &__phone {
+        font-size: $size-normal*2.3;
+    font-family: $lato;
+    color: #394b50;
     font-weight: 400;
     display: flex;
     justify-content: center;
- }
+    }
+}
+.social {
+    &__icon {
+        color: $logo-color2;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+    &__icon:hover {
+        color: $logo-color1;
+    }
+    
+}
 
 .icon-phone {
     font-size: $size-normal*3;
     margin-right: 10px;
+    color: #394b50;
+  }
+
+  .footer__copyright {
+      font-family: $sans;
   }

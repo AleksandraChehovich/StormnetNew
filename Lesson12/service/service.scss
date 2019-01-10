@@ -1,4 +1,4 @@
-// @import "../sass/variables.scss";
+@import "../sass/variables.scss";
 
 .service__header {
     color: $text-color1;
@@ -15,19 +15,33 @@
         padding-top: 4%;
         display: flex;
         width: 50%;
+        
     }
 
     &__icon {
         align-self: stretch;
-        width:20%;
+        width:30%;
+        padding-left: 4%;
+        
+    }
+    &__content {
+        font-size: $size-normal;
+        padding-right: 4%;
+        padding-left: 4%;
     }
 }
-.opportunities__content {
-    font-size: $size-normal;
-}
-.opportunities__header {
-    padding-bottom: 2%;
-    // font-family: $lato;
-    text-transform: uppercase;
-    font-weight: 700;
+.opportunities {
+
+    &__header {
+       padding-bottom: 2%;
+       font-family: $lato;
+       text-transform: uppercase;
+       font-weight: 700;
+       font-size: $size-normal*1.4;
+    }
+
+    &__text {
+        font-size: $size-normal*1.2;
+        font-family: $sans;
+    }
 }

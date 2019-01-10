@@ -1,15 +1,27 @@
 @font-face {
   font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
   font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
   font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
   font-family: 'FontAwesome';
-  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .link {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 10px;
-  font-family: 'Lato-Regular';
+  font-size: 13px;
+  font-family: "Lato-Regular";
 }
 /*# sourceMappingURL=link.css.map */

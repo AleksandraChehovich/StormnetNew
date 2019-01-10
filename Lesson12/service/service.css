@@ -1,9 +1,21 @@
 @font-face {
   font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
   font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
   font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
   font-family: 'FontAwesome';
-  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .service__header {
@@ -36,16 +48,26 @@
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-  width: 20%;
+  width: 30%;
+  padding-left: 4%;
 }
 
 .opportunities__content {
   font-size: 10px;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 .opportunities__header {
   padding-bottom: 2%;
+  font-family: "Lato-Regular";
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
+}
+
+.opportunities__text {
+  font-size: 12px;
+  font-family: "OpenSans-Regular";
 }
 /*# sourceMappingURL=service.css.map */

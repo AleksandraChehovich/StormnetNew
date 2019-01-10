@@ -1,9 +1,21 @@
 @font-face {
   font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
   font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
   font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
   font-family: 'FontAwesome';
-  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .header {
@@ -13,12 +25,12 @@
 
 .header__first-header {
   font-size: 25px;
-  font-family: 'GothamPro-Black';
+  font-family: "GothamPro-Black";
   text-transform: uppercase;
 }
 
 .header__secondary-header {
   font-size: 11px;
-  font-family: 'OpenSans-Regular';
+  font-family: "OpenSans-Regular";
 }
 /*# sourceMappingURL=content-header.css.map */

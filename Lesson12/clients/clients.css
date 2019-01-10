@@ -1,9 +1,21 @@
 @font-face {
   font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
   font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
   font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
   font-family: 'FontAwesome';
-  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .clients {
@@ -46,12 +58,13 @@
   padding-left: 6%;
   font-size: 0.85em;
   color: #7b7b7b;
+  font-family: "OpenSans-Regular";
 }
 
 .testimonial__author {
   padding-top: 5%;
   text-transform: uppercase;
-  font-family: 'Lato';
+  font-family: "Lato-Regular";
 }
 
 .testimonial__author_colored {

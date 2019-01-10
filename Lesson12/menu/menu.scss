@@ -1,15 +1,18 @@
-// @import "../sass/variables.scss";
+@import "../sass/variables.scss";
 
 .menu {
         
     &__item {
         display: inline-block;
         list-style-type: none;
+
             }
+
             &__item-link {
                 display: inline-block;
                 color: $text-color2;
                 padding: 10px 21px;
+                
             }
 } 
 
