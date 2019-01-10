@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src:
+    url('.././fonts/FontAwesome.ttf') format('truetype'),
+    url('../fonts/FontAwesome.woff') format('woff'),
+    url('../fonts/FontAwesome.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'FontAwesome' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-facebook:before {
+  content: "\f09a";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+.icon-renren:before {
+  content: "\f18b";
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-thumbs-up:before {
+  content: "\e905";
+  font-size: 60px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-unlock:before {
+  content: "\e906";
+  font-size: 60px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-headphones:before {
+  content: "\e907";
+  font-size: 60px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-cloud-upload:before {
+  content: "\e908";
+  font-size: 60px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-dollar:before {
+  content: "\e909";
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-rocket:before {
+  content: "\e90a";
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-cog:before {
+  content: "\e90b";
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-graduation:before {
+  content: "\e90c";
+  font-size: 45px;
+  color: white;
+  text-shadow: #5683af 0 0 2px, #5683af 0 0 2px,  #5683af 0 0 2px, #5683af 0 0 2px, #5683af 0 0 2px;
+}
+.icon-clock:before {
+  content: "\e900";
+  fill: none;
+  font-size: 45px;
+  color:white;
+  text-shadow: #f6772c 0 0 2px, #f6772c 0 0 2px,  #f6772c 0 0 2px, #f6772c 0 0 2px, #f6772c 0 0 2px;
+}
+.icon-email:before {
+  content: "\e901";
+}
+.icon-user:before {
+  content: "\e902";
+}
+.icon-phone:before {
+  content: "\e903";
+  font-size: 27px;
+}

@@ -11,6 +11,14 @@
     &__social {
         padding-top: 2%;
     padding-bottom: 4%;
+    // color: $logo-color2;
     }
 }
 
+.social__icon {
+    color: $logo-color2;
+    text-decoration: none;
+}
+.social__icon:hover {
+    color: $logo-color1;
+}

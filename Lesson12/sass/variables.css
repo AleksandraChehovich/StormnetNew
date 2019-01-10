@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "GothamPro-Black";
-  font-family: "Lato-Regular";
-  font-family: "OpenSans-Regular";
-  font-family: "FontAwesome";
-  src: url("../fonts/GothamPro-Black.woff") format("woff");
-  src: url("../fonts/Lato-Regular.woff") format("woff");
-  src: url("../fonts/OpenSans-Regular.woff") format("woff");
-  src: url("../fonts/FontAwesome.woff") format("woff");
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff);
+  src: url(../fonts/Lato-Regular.woff);
+  src: url(../fonts/OpenSans-Regular.woff);
+  src: url(../fonts/FontAwesome.woff);
 }
 /*# sourceMappingURL=variables.css.map */

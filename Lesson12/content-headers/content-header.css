@@ -1,0 +1,13 @@
+.header {
+  text-align: center;
+}
+
+.header__first-header {
+  font-family: 'GothamPro-Black';
+  text-transform: uppercase;
+}
+
+.header__secondary-header {
+  font-family: 'GothamPro-Black';
+}
+/*# sourceMappingURL=content-header.css.map */
