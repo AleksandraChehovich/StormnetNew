@@ -5,6 +5,7 @@
         list-style-type: none;
             }
             &__item-link {
+                display: inline-block;
                 color: $text-color2;
                 padding: 10px 21px;
             }

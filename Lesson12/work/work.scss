@@ -6,4 +6,48 @@
         color: black;
         padding: 12% 0 7%;
     }
+
+    &__button {
+        margin: 0 auto;
+        margin-bottom: 10%;
+    }
+
+    &__arrows {
+        position: absolute;
+    top: 32%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 27vh;
+    max-width: 66%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    }
+}
+
+.arrows__item_bottom {
+    align-self: flex-end;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+
+}
+
+.step {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    &__header {
+        padding: 25% 0 8%;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 1.1em;
+    color: #394b50;
+    }
 }

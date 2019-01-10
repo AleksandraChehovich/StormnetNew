@@ -1,5 +1,6 @@
 .button {
-    display: inline-block;
+    display: flex;
+    align-items: stretch;
     padding: 0;
     background: #ffbb42;
     border: none;
