@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .link {
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Lato-Regular';
 }
 /*# sourceMappingURL=link.css.map */

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CACtB",
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAC,iBAAiB;EAC7B,WAAW,EAAC,cAAc;EAC1B,WAAW,EAAC,kBAAkB;EAC9B,WAAW,EAAC,aAAa;EACzB,GAAG,EAAE,kCAAkC,CAClC,+BAA+B,CAC/B,mCAAmC,CACnC,8BAA8B;;;ADNvC,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CACtB;;AAED,AAAA,4BAA4B,AAAA,MAAM,CAAC;EAC/B,UAAU,ECQA,OAAO;EDPjB,KAAK,ECWM,IAAI;CDVlB",
     "sources": [
-        "header.scss"
+        "header.scss",
+        "../sass/variables.scss"
     ],
     "names": [],
     "file": "header.css"

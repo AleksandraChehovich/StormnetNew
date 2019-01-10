@@ -1,16 +1,19 @@
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
 }
 
 .menu__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   list-style-type: none;
+}
+
+.menu__item-link {
+  display: inline-block;
+  color: #7b7b7b;
+  padding: 10px 21px;
 }
 /*# sourceMappingURL=menu.css.map */

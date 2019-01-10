@@ -1,12 +1,22 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .points {
   margin: 0 auto;
-  padding-bottom: 20%;
+  padding-top: 6%;
+  padding-bottom: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #fff;
 }
 
 .points__item {
@@ -14,5 +24,9 @@
   border: 1px solid #dedfe0;
   border-radius: 50%;
   margin: 0 5px;
+}
+
+.points__item_active:hover {
+  border: 1px solid #709dca;
 }
 /*# sourceMappingURL=points.css.map */

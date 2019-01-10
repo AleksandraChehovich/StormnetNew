@@ -1,8 +1,26 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .banner {
+  position: relative;
+  background: #709dca;
   text-align: center;
 }
 
 .banner__header {
   padding: 7% 0 2%;
+}
+
+.banner__form {
+  padding: 0 3% 30%;
+}
+
+.form__input {
+  width: 27%;
 }
 /*# sourceMappingURL=banner.css.map */

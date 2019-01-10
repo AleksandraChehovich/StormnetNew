@@ -1,19 +1,29 @@
 @font-face {
     font-family:'GothamPro-Black';
-    font-family:'Lato-Regular';
-    font-family:'OpenSans-Regular';
-    font-family:'FontAwesome';
-    src: url(../fonts/GothamPro-Black.woff)
-         url(../fonts/Lato-Regular.woff)
-         url(../fonts/OpenSans-Regular.woff)
-         url(../fonts/FontAwesome.woff)
+    src: url(./../fonts/GothamPro-Black.woff)
 }
 
-// $gotham: 'GothamPro-Black';
+@font-face {
+    font-family:'Lato-Regular';
+    src: url(../fonts/Lato-Regular.woff)
+}
 
-// $lato:'Lato-Regular';
+@font-face {
+    font-family:'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.woff)
+}
 
-// $sans: 'OpenSans-Regular';
+@font-face {
+    font-family:'FontAwesome';
+    src: url(../fonts/FontAwesome.woff)
+}
+
+
+$gotham: 'GothamPro-Black';
+
+$lato:'Lato-Regular';
+
+$sans: 'OpenSans-Regular';
 
 $logo-color1: #ffbb42;
 

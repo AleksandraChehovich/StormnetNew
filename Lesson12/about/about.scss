@@ -1,3 +1,5 @@
+@import "../sass/variables.scss";
+
 .about {
     display: flex;
 
@@ -18,10 +20,16 @@
         padding-bottom: 2%;
     }
 }
+.about {
+    &__text {
+        color: $ground-color;
+        font-size: $size-normal;
+        line-height: 24px;
+    }
 
-.about__text {
-    color: $ground-color;
-    font-size: $size-normal;
-    line-height: 24px;
+    &__button {
+        border: px solid black;
+        width: 70%;
+    }
 }
-
+ 

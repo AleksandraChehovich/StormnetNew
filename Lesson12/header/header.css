@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .top-header__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,5 +16,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.menu__item-link_view_active:hover {
+  background: #ffbb42;
+  color: #fff;
 }
 /*# sourceMappingURL=header.css.map */

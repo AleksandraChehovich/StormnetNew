@@ -1,4 +1,15 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .input-name {
   padding: 18px 0 18px 41px;
+  background: #fff url(../img/Full_name.png) no-repeat 15px;
+  font-size: 10px;
+  color: #7b7b7b;
 }
 /*# sourceMappingURL=input-name.css.map */

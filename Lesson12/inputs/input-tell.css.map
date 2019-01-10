@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,gBAAgB;CAC5B",
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAC,iBAAiB;EAC7B,WAAW,EAAC,cAAc;EAC1B,WAAW,EAAC,kBAAkB;EAC9B,WAAW,EAAC,aAAa;EACzB,GAAG,EAAE,kCAAkC,CAClC,+BAA+B,CAC/B,mCAAmC,CACnC,8BAA8B;;;ADNvC,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,gBAAgB;EACzB,UAAU,ECiBC,IAAI,CDjBW,oBAAoB,CAAC,SAAS,CAAC,IAAI;EAC7D,SAAS,ECwBC,IAAI;EDvBd,KAAK,ECqBK,OAAO;CDpBpB",
     "sources": [
-        "input-tell.scss"
+        "input-tell.scss",
+        "../sass/variables.scss"
     ],
     "names": [],
     "file": "input-tell.css"

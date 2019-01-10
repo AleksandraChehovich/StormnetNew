@@ -1,4 +1,49 @@
+@font-face {
+  font-family: 'GothamPro-Black';
+  font-family: 'Lato-Regular';
+  font-family: 'OpenSans-Regular';
+  font-family: 'FontAwesome';
+  src: url(../fonts/GothamPro-Black.woff) url(../fonts/Lato-Regular.woff) url(../fonts/OpenSans-Regular.woff) url(../fonts/FontAwesome.woff);
+}
+
 .footer {
   text-align: center;
+}
+
+.footer__copyright {
+  background: #709dca;
+  color: #fff;
+  font-size: 12px;
+  padding: 19px 0;
+}
+
+.footer__social {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.social__icon {
+  color: #709dca;
+  text-decoration: none;
+}
+
+.social__icon:hover {
+  color: #ffbb42;
+}
+
+.footer__phone {
+  font-size: 23px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-phone {
+  font-size: 30px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=footer.css.map */

@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,gBAAgB;EACzB,UAAU,EAAG,qBAAqB,CAAC,SAAS,CAAC,IAAI;CAGpD",
+    "mappings": "ACAA,UAAU;EACN,WAAW,EAAC,iBAAiB;EAC7B,WAAW,EAAC,cAAc;EAC1B,WAAW,EAAC,kBAAkB;EAC9B,WAAW,EAAC,aAAa;EACzB,GAAG,EAAE,kCAAkC,CAClC,+BAA+B,CAC/B,mCAAmC,CACnC,8BAA8B;;;ADNvC,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,gBAAgB;EACzB,UAAU,ECiBC,IAAI,CDjBW,qBAAqB,CAAC,SAAS,CAAC,IAAI;EAC9D,SAAS,ECwBC,IAAI;EDvBd,KAAK,ECqBK,OAAO;CDpBpB",
     "sources": [
-        "input-email.scss"
+        "input-email.scss",
+        "../sass/variables.scss"
     ],
     "names": [],
     "file": "input-email.css"
