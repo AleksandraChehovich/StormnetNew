@@ -22,3 +22,15 @@
 .social__icon:hover {
     color: $logo-color1;
 }
+
+.footer__phone {
+    font-size: $size-normal*2.3;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+ }
+
+.icon-phone {
+    font-size: $size-normal*3;
+    margin-right: 10px;
+  }

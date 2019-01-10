@@ -439,4 +439,20 @@ body {
 .social__icon:hover {
   color: #ffbb42;
 }
+
+.footer__phone {
+  font-size: 23px;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-phone {
+  font-size: 30px;
+  margin-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
