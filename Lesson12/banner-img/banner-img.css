@@ -4,5 +4,18 @@
   left: 0;
   bottom: 0;
   right: 0;
+  max-width: 100%;
+}
+
+.screen__img {
+  position: relative;
+  max-width: 100%;
+}
+
+@media (max-width: 1120px) {
+  .screen {
+    max-width: 60%;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=banner-img.css.map */

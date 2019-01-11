@@ -1,4 +1,4 @@
-
+@import "../sass/variables.scss";
 .banner {
     position: relative;
     background: $logo-color2;
@@ -10,6 +10,10 @@
 
     &__form {
         padding: 0 3% 30%;
+    }
+
+    &__content {
+        margin-bottom: 8%;
     }
 }
 .form__input {

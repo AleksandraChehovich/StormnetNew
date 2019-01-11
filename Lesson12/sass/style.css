@@ -117,6 +117,26 @@ body {
   font-family: "Lato-Regular";
 }
 
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome.woff);
+}
+
 .banner {
   position: relative;
   background: #709dca;
@@ -129,6 +149,10 @@ body {
 
 .banner__form {
   padding: 0 3% 30%;
+}
+
+.banner__content {
+  margin-bottom: 8%;
 }
 
 .form__input {
@@ -271,11 +295,43 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
+  max-width: 100%;
+}
+
+.screen__img {
+  position: relative;
+  max-width: 100%;
+}
+
+@media (max-width: 1120px) {
+  .screen {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .points {
   margin: 0 auto;
-  padding-top: 6%;
   padding-bottom: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
