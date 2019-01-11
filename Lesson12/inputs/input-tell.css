@@ -25,7 +25,7 @@
   color: #7b7b7b;
 }
 
-@media (max-width: 565px) {
+@media (max-width: 690px) {
   .input-tell {
     padding: 2% 0 2% 10%;
   }
