@@ -34,10 +34,34 @@
 .form__input {
   border: 1px solid #709dca;
   font-family: "OpenSans-Regular";
-  max-width: 25%;
+  width: 25%;
 }
 
 .form__button {
-  width: 21%;
+  width: 23%;
+}
+
+.form__input_size_m {
+  width: 35%;
+}
+
+.form__button_size_m {
+  width: 27%;
+}
+
+@media (max-width: 565px) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .form__input {
+    width: 60%;
+    margin-bottom: 5px;
+  }
 }
 /*# sourceMappingURL=form.css.map */

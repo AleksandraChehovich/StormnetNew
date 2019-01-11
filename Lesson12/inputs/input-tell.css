@@ -24,4 +24,10 @@
   font-size: 10px;
   color: #7b7b7b;
 }
+
+@media (max-width: 565px) {
+  .input-tell {
+    padding: 2% 0 2% 10%;
+  }
+}
 /*# sourceMappingURL=input-tell.css.map */

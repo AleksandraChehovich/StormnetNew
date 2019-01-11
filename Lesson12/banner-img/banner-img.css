@@ -18,4 +18,10 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 565px) {
+  .screen {
+    top: 69%;
+  }
+}
 /*# sourceMappingURL=banner-img.css.map */

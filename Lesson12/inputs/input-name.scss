@@ -6,3 +6,9 @@
     font-size: $size-normal;
     color: $text-color2;
 }
+
+@media (max-width:565px) {
+    .input-name {
+        padding: 2% 0 2% 10%;
+    }
+}

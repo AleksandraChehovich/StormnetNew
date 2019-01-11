@@ -45,3 +45,14 @@
         font-family: $sans;
     }
 }
+
+@media (max-width: 850px) {
+    .opportunities {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .opportunities__item {
+        width: 70%;
+    }
+}

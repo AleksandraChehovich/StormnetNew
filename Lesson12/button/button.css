@@ -27,6 +27,13 @@
 
 .button__link {
   color: #fff;
-  padding: 9% 10%;
+  padding: 8% 0;
+  width: 100%;
+}
+
+@media (max-width: 796px) {
+  .button__link {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=button.css.map */

@@ -1,8 +1,15 @@
 @import "../sass/variables.scss";
 
 .input-email {
-    padding: 2% 0 2% 6%;
+    
     background: $ground-color url(../img/email.png) no-repeat 15px;
+    padding: 2% 0 2% 6%;
     font-size: $size-normal;
     color: $text-color2;
+}
+
+@media (max-width:565px) {
+    .input-email {
+        padding: 2% 0 2% 10%;
+    }
 }

@@ -8,17 +8,36 @@
     &__input {
         border: 1px solid $logo-color2;
         font-family: $sans;
-        max-width: 25%;
+        width: 25%;
     }
 
     &__button {
-        width: 21%;
+        width: 23%;
     }
 }
 
-// @media (max-width:920px) {
-//     .form__input {
-//         max-width: 20%;
+.form__input_size_m {
+    width: 35%;
+}
 
-//     }
-// }
+.form__button_size_m {
+    width: 27%;
+}
+
+@media (max-width:565px) {
+
+    .form {
+        flex-direction: column;
+      align-items: center;
+    }
+    .form__input
+     {
+        width: 60%;
+        margin-bottom: 5px;
+    }
+    
+
+    // .form__button {
+    //     width: 40%;
+    // }
+}
