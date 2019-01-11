@@ -106,10 +106,17 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .card {
     width: 70%;
-    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .cards__item_active:hover {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
   }
 }
 /*# sourceMappingURL=price.css.map */
