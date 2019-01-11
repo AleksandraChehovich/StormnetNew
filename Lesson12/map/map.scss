@@ -1,6 +1,29 @@
+@import "../sass/variables.scss";
+
 .map__content {
     padding: 0 3%;
-    background: url(../img/MAP.jpg) no-repeat;
+    background: url(../img/Layer_13.png) no-repeat;
     background-size: 100%;
     padding-bottom: 50%;
+}
+
+.map {
+    &__header {
+        text-transform: uppercase;
+        color: $ground-color;
+        font-family: $lato;
+        font-size: $size-normal;
+    }
+
+    &__link {
+        text-decoration: none;
+        color:  #cc6714;
+        font-size: $size-normal*0.9;
+    }
+
+    &__text {
+        width: 20%;
+        background: url(../img/address-img.png) no-repeat;
+        background-size: 100%;
+    }
 }
