@@ -1,7 +1,6 @@
 @import "../sass/variables.scss";
 .button {
-    display: flex;
-    align-items: stretch;
+    display: block;
     padding: 0;
     background: #ffbb42;
     border: none;
@@ -9,7 +8,6 @@
     &__link {
         color: $ground-color;
         padding: 18px 44px;
-       
         font-size: $size-normal*1.2;
         margin: 0 auto;
     }

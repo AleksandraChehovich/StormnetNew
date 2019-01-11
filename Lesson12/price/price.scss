@@ -81,3 +81,15 @@
 .cards__item_active:hover .card__quantity {
     color: $ground-color;
 }
+
+@media (max-width: 850px) {
+    .price__card {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+}

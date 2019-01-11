@@ -99,4 +99,17 @@
 .cards__item_active:hover .card__quantity {
   color: #fff;
 }
+
+@media (max-width: 850px) {
+  .price__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
 /*# sourceMappingURL=price.css.map */

@@ -110,6 +110,7 @@ body {
 }
 
 .link {
+  display: block;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 13px;
@@ -247,12 +248,7 @@ body {
 }
 
 .button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  display: block;
   padding: 0;
   background: #ffbb42;
   border: none;
@@ -529,6 +525,19 @@ body {
 
 .cards__item_active:hover .card__quantity {
   color: #fff;
+}
+
+@media (max-width: 850px) {
+  .price__card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @font-face {
