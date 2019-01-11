@@ -535,7 +535,7 @@ body {
             flex-direction: column;
   }
   .card {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
   }
 }
@@ -705,6 +705,19 @@ body {
 
 .testimonial__author_colored {
   color: #ffbb42;
+}
+
+@media (max-width: 850px) {
+  .testimonial {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial__item {
+    width: 70%;
+  }
 }
 
 .newsletter__header {

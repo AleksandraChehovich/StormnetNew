@@ -70,4 +70,15 @@
 .testimonial__author_colored {
   color: #ffbb42;
 }
+
+@media (max-width: 850px) {
+  .testimonial {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .testimonial__item {
+    width: 70%;
+  }
+}
 /*# sourceMappingURL=clients.css.map */
