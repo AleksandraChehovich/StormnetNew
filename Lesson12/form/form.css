@@ -25,11 +25,19 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 100%;
 }
 
 .form__input {
   border: 1px solid #709dca;
   font-family: "OpenSans-Regular";
+  max-width: 25%;
+}
+
+.form__button {
+  width: 21%;
 }
 /*# sourceMappingURL=form.css.map */

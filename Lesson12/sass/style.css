@@ -110,7 +110,7 @@ body {
 }
 
 .link {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 13px;
@@ -222,30 +222,98 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 100%;
 }
 
 .form__input {
   border: 1px solid #709dca;
   font-family: "OpenSans-Regular";
+  max-width: 25%;
+}
+
+.form__button {
+  width: 21%;
+}
+
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome.woff);
 }
 
 .input-name {
-  padding: 18px 0 18px 41px;
+  padding: 2% 0 2% 6%;
   background: #fff url(../img/Full_name.png) no-repeat 15px;
   font-size: 10px;
   color: #7b7b7b;
 }
 
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome.woff);
+}
+
 .input-email {
-  padding: 18px 0 18px 41px;
+  padding: 2% 0 2% 6%;
   background: #fff url(../img/email.png) no-repeat 15px;
   font-size: 10px;
   color: #7b7b7b;
 }
 
+@font-face {
+  font-family: 'GothamPro-Black';
+  src: url(./../fonts/GothamPro-Black.woff);
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../fonts/Lato-Regular.woff);
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(../fonts/FontAwesome.woff);
+}
+
 .input-tell {
-  padding: 18px 0 18px 41px;
+  padding: 2% 0 2% 6%;
   background: #fff url(../img/tell.png) no-repeat 15px;
   font-size: 10px;
   color: #7b7b7b;
@@ -272,21 +340,15 @@ body {
 }
 
 .button {
-  display: block;
-  padding: 0;
-  background: #ffbb42;
+  display: inline-block;
   border: none;
+  background: #ffbb42;
+  padding: 0;
 }
 
 .button__link {
   color: #fff;
-  padding: 18px 44px;
-  font-size: 12px;
-  margin: 0 auto;
-}
-
-.button__link_active {
-  font-family: "OpenSans-Regular";
+  padding: 9% 10%;
 }
 
 .screen {

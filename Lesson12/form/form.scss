@@ -2,10 +2,23 @@
 .form {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 100%;
 
     &__input {
         border: 1px solid $logo-color2;
         font-family: $sans;
+        max-width: 25%;
+    }
+
+    &__button {
+        width: 21%;
     }
 }
+
+// @media (max-width:920px) {
+//     .form__input {
+//         max-width: 20%;
+
+//     }
+// }

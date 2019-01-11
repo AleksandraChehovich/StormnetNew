@@ -1,18 +1,14 @@
 @import "../sass/variables.scss";
+
 .button {
-    display: block;
-    padding: 0;
-    background: #ffbb42;
+    display: inline-block;
     border: none;
-    
+    background: $logo-color1;
+    padding: 0;
+
     &__link {
         color: $ground-color;
-        padding: 18px 44px;
-        font-size: $size-normal*1.2;
-        margin: 0 auto;
+        padding: 9% 10%;
     }
-    &__link_active   {
-        font-family: $sans;
-       }
 
 }

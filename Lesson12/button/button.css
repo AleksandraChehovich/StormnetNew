@@ -19,20 +19,14 @@
 }
 
 .button {
-  display: block;
-  padding: 0;
-  background: #ffbb42;
+  display: inline-block;
   border: none;
+  background: #ffbb42;
+  padding: 0;
 }
 
 .button__link {
   color: #fff;
-  padding: 18px 44px;
-  font-size: 12px;
-  margin: 0 auto;
-}
-
-.button__link_active {
-  font-family: "OpenSans-Regular";
+  padding: 9% 10%;
 }
 /*# sourceMappingURL=button.css.map */
