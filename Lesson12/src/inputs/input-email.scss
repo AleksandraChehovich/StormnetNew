@@ -3,9 +3,8 @@
 .input-email {
     
     background: $ground-color url(../img/email.png) no-repeat 15px;
-    padding: 2% 0 2% 6%;
-    font-size: $size-normal;
-    color: $text-color2;
+    
+    @include border-rad;
 }
 
 @media (max-width:690px) {

@@ -1,10 +1,9 @@
 @import "../sass/variables.scss";
 
 .input-tell {
-    padding: 2% 0 2% 6%;
     background: $ground-color url(../img/tell.png) no-repeat 15px;
-    font-size: $size-normal;
-    color: $text-color2;
+   
+    @include border-rad;
 }
 
 @media (max-width:690px) {

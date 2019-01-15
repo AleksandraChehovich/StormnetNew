@@ -12,7 +12,8 @@ body {
     margin: 0 auto;
 }         
 
-  
+@import "./mixin.scss";
+
 @import "../header/header.scss";
 
 @import "../logo/logo.scss";
