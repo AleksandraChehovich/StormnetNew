@@ -1,9 +1,11 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .input-tell {
     background: $ground-color url(../img/tell.png) no-repeat 15px;
    
-    @include border-rad;
+    @include input-border;
 }
 
 @media (max-width:690px) {

@@ -9,10 +9,12 @@
         border: 1px solid $logo-color2;
         font-family: $sans;
         width: 25%;
+        align-self: stretch;
     }
 
     &__button {
         width: 23%;
+        align-self: stretch;
     }
 }
 

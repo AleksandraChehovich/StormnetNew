@@ -1,6 +1,9 @@
-@mixin border-rad {
+@import "./variables.scss";
+
+@mixin input-border {
     font-size: $size-normal;
     color: $text-color2;
-    padding: 2% 0 2% 6%;
-    border-radius: 3px;
+    border-radius: $border-rad;
+    padding: 2% 0 2% 4%;
+    
 }

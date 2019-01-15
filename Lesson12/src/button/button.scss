@@ -5,6 +5,8 @@
     border: none;
     background: $logo-color1;
     padding: 0;
+    border-radius: $border-rad;
+    
 
     &__link {
         color: $ground-color;

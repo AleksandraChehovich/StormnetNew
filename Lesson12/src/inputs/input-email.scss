@@ -1,10 +1,12 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .input-email {
     
     background: $ground-color url(../img/email.png) no-repeat 15px;
     
-    @include border-rad;
+    @include input-border;
 }
 
 @media (max-width:690px) {
