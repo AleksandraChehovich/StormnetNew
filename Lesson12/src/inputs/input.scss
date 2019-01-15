@@ -1,0 +1,23 @@
+@import "../sass/variables.scss";
+
+@import "../sass/mixin.scss";
+
+.form__input {
+
+    @include input-border;
+}
+
+@each $name in 'name' 'tell' 'email' {
+
+    .input-#{$name} {
+        background: $ground-color url('../../img/#{$name}.png') no-repeat 15px;
+
+    }
+    
+}
+
+@media (max-width:915px) {
+    .form__input {
+        padding: 2% 0 2% 7%;
+    }
+}
