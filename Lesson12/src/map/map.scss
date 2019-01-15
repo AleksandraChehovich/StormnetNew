@@ -5,25 +5,48 @@
     background: url(../img/Layer_13.png) no-repeat;
     background-size: 100%;
     padding-bottom: 50%;
+    position: relative;
+}
+
+.map__address-wrapper {
+    position: absolute;
+    top: 18%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    text-align: center;
 }
 
 .map {
     &__header {
         text-transform: uppercase;
-        color: $ground-color;
+        
         font-family: $lato;
-        font-size: $size-normal;
+        font-size: $size-normal*1.3;
+        margin-top: 20%;
+        margin-bottom: 5%;
     }
 
     &__link {
         text-decoration: none;
         color:  #cc6714;
-        font-size: $size-normal*0.9;
+        font-size: $size-normal*1.1;
     }
 
     &__text {
         width: 20%;
         background: url(../img/address-img.png) no-repeat;
         background-size: 100%;
+        font-size: $size-normal*1.1;
+        display: inline-block;
+        color: $ground-color;
+        padding-bottom: 5%;
     }
+}
+
+.map__address {
+    padding: 0 28%;
+    line-height: 2;
+
 }
