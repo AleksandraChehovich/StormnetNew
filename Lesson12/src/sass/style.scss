@@ -1,3 +1,23 @@
+@font-face {
+    font-family:'GothamPro-Black';
+    src: url(./../fonts/GothamPro-Black.woff)
+}
+
+@font-face {
+    font-family:'Lato-Regular';
+    src: url(../fonts/Lato-Regular.woff)
+}
+
+@font-face {
+    font-family:'OpenSans-Regular';
+    src: url(../fonts/OpenSans-Regular.woff)
+}
+
+@font-face {
+    font-family:'FontAwesome';
+    src: url(../fonts/FontAwesome.woff)
+}
+
 * {
     box-sizing: border-box;
 }
