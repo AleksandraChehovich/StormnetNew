@@ -19,12 +19,10 @@
   }
 }
 
-@media (max-width:565px) {
+@media (max-width:$breakpoint3) {
 
   .screen {
-    top:69%;
+    top:vw(750);
   }
-  // .screen {
-  //   top:52%;
-  // }
+
 }

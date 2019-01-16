@@ -30,19 +30,33 @@
     width: 27%;
 }
 
-@media (max-width:565px) {
+@media (max-width:$breakpoint3) {
 
     .form {
         flex-direction: column;
         align-items: center;
-        text-align: center;
+
+        &__input {
+            width: 60%;
+            margin-bottom: 5px;
+            align-self: center;
+        }
+
+        &__button {
+            width: 60%;
+            align-self: center;
+        }
+
+        .button__link_active {
+            padding: 3.5% 0;
+        }
 
     }
-    .form__input
-     {
-        width: 60%;
-        margin-bottom: 5px;
-    }
+    // .form__input
+    //  {
+    //     width: 60%;
+    //     margin-bottom: 5px;
+    // }
     // .form__button {
     //     width: 60%;
     // }
