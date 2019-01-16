@@ -48,11 +48,13 @@
     flex-direction: column;
 
     &__header {
-        padding: 25% 0 8%;
-    text-transform: uppercase;
-    font-family: $lato;
-    font-size: $size-normal*1.7;
-    color: #394b50;
+        // padding: 25% 0 8%;
+        @include header-padding(vw(100), vw(30));
+
+        text-transform: uppercase;
+        font-family: $lato;
+        font-size: $size-normal*1.7;
+        color: #394b50;
     }
 
     &__text {
@@ -61,14 +63,19 @@
     }
 }
 
-@media (max-width:850px) {
+@media (max-width:$breakpoin2) {
     .steps {
         flex-direction: column;
         align-items: center;
     }
 
     .step {
-        margin-top: 15px;
+        margin-top: 40px;
+        width: 50%;
+
+           &__header {
+            @include header-padding(vw(5), vw(15));
+           }
     }
 
     .work__arrows {
