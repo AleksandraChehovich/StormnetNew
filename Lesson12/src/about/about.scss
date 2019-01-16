@@ -28,6 +28,8 @@
         font-size: $size-normal*1.1;
         font-family: $sans;
         line-height: 24px;
+
+           @include header-padding(0, vw(33));
     }
 
     &__button {
