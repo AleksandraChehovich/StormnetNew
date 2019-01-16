@@ -1,22 +1,28 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .banner {
     position: relative;
     background: $logo-color2;
     text-align: center;
 
     &__header {
-        padding: 7% 0 2%;
+        
+        @include header-padding(vw(110), vw(30));
     }
 
     &__form {
-        padding: 0 3% 30%;
+        
+        padding-right: vw(30);
+        padding-left: vw(30);
+        padding-bottom: vw(450);
     }
 
     &__content {
-        margin-bottom: 8%;
+        margin-bottom: vw(90);
     }
 }
 .form__input {
-    width: 27%;
+    width: vw(275);
 }

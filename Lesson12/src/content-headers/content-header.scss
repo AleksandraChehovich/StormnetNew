@@ -5,12 +5,12 @@
     text-align: center;
 }
 .header__first-header {
-    font-size: ($size-normal*2.5);
+    font-size: vw(35);
     font-family: $gotham;
     text-transform: uppercase;
 }
 
 .header__secondary-header {
-    font-size: ($size-normal*1.1);
+    font-size: vw(16);
     font-family: $sans;
 }

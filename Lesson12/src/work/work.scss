@@ -5,8 +5,9 @@
     text-align: center;
 
     &__header {
+        @include header-padding(vw(155), vw(105));
+
         color: black;
-        padding: 12% 0 7%;
     }
 
     &__button {

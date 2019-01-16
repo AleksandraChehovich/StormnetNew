@@ -2,8 +2,8 @@
 
 .service__header {
     color: $text-color1;
-    padding-top: 1%;
-    padding-bottom: 2%;
+    
+    @include header-padding(vw(105), vw(15));
 }
 .opportunities {
     display: flex;
@@ -12,7 +12,7 @@
     padding-bottom: 10%;
 
     &__item {
-        padding-top: 4%;
+        padding-top: vw(79);
         display: flex;
         width: 50%;
         

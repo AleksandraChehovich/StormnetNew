@@ -1,7 +1,9 @@
 @import "../sass/variables.scss";
 
 .newsletter__header {
-    padding: 12% 0 2%;
+    
+    @include header-padding(vw(155), vw(40));        
+
     color: black;
 }
 

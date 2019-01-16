@@ -16,8 +16,10 @@
     }
 
     &__header {
+
+        @include header-padding(vw(0), vw(28));
+
         text-align: left;
-        padding-bottom: 2%;
     }
 }
 .about {

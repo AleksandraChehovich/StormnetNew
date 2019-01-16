@@ -1,7 +1,7 @@
   @import "../sass/variables.scss";
   .screen {
     position: absolute;
-    top:48%;
+    top:53%;
     left: 0;
     bottom: 0;
     right: 0;
@@ -14,7 +14,7 @@
   }
 @media (max-width:1120px) {
   .screen {
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto;
   }
 }

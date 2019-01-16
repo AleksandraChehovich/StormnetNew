@@ -12,13 +12,14 @@
         color: $ground-color;
         padding: 8% 0;
         width: 100%;
+        font-size: vw(12);
     }
 
 }
 
-@media (max-width:796px) {
-    .button__link {
-        font-size: $size-normal;
+// @media (max-width:796px) {
+//     .button__link {
+//         font-size: $size-normal;
 
-    }
-}
+//     }
+// }

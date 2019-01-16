@@ -5,9 +5,10 @@
 
     &__header
     {
+        @include header-padding(vw(137), vw(80));
+
         color: $text-color1;
-        padding-top: 10%;
-        padding-bottom: 4%;
+        
     }
 
     &__card {

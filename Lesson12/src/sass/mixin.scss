@@ -1,7 +1,13 @@
 @import "./variables.scss";
 
+@function vw($size) {
+    $screen:1366;
+
+    @return ($size/$screen)*100vw;
+}
+
 @mixin input-border {
-    font-size: $size-normal;
+    font-size: vw(10);
     color: $text-color2;
     border-radius: $border-rad;
     padding: 2% 0 2% 4%;
@@ -15,10 +21,12 @@
     }
         
 }
+
+@mixin header-padding($top, $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+
+    @content;
     
+}
 
-// @function vw($size) {
-//     $screen:1366
-
-//     @return ($size/$screen)*100vw;
-// }
