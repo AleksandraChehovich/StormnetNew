@@ -26,7 +26,15 @@
     padding-top: $top;
     padding-bottom: $bottom;
 
-    @content;
+       @content;   
+}
+
+@mixin hover-active {
+    &:hover {
+        color: $logo-color1;
+
+           @content;
+    }
     
 }
 

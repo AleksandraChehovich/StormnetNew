@@ -30,9 +30,8 @@
         color: $logo-color2;
         text-decoration: none;
         margin-right: 5px;
-    }
-    &__icon:hover {
-        color: $logo-color1;
+
+        @include hover-active;
     }
     
 }
