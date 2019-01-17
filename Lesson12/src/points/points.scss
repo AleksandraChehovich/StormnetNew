@@ -4,12 +4,12 @@
 
 .points {
     
-    @include header-padding(0, 3%);
+    @include header-padding(vw(24), 0);
     
     @include flex(center, stretch, nowrap);
     
     margin: 0 auto;
-    background: $ground-color;
+    // background: $ground-color;
 
     &__item {
         padding: 6px;
