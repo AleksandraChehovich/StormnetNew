@@ -1,9 +1,9 @@
 @import "../sass/variables.scss";
 
 .top-header__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
+    @include flex(space-between, center, nowrap);
+
 }
 
 .menu__item-link_view_active:hover {

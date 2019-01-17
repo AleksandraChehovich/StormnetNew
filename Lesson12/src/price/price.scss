@@ -1,5 +1,7 @@
 @import "../sass/variables.scss";
 
+@import "../sass/variables.scss";
+
 .price {
     background: $ground-color2;
 
@@ -12,9 +14,10 @@
     }
 
     &__card {
-        display: flex;
-    justify-content: center;
-    padding-bottom: 6%;
+    
+    @include header-padding(0, 6%);
+
+    @include flex(center, stretch, nowrap);
 
     }
 }
@@ -34,7 +37,8 @@
     }
 
     &__summ {
-        padding: 7% 0;
+        @include header-padding(7%, 7%);
+        // padding: 7% 0;
         font-family: $lato;
     }
 
@@ -82,7 +86,7 @@
     color: $ground-color;
 }
 
-@media (max-width: 850px) {
+@media (max-width: $breakpoin2) {
     .price__card {
         flex-direction: column;
         align-items: center;

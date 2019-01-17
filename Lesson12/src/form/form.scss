@@ -50,7 +50,8 @@
         }
 
         .button__link_active {
-            padding: 3.5% 0;
+            @include header-padding(3.5%, 3.5%);
+            // padding: 3.5% 0;
         }
 
     }

@@ -1,11 +1,14 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .points {
+    
+    @include header-padding(0, 3%);
+    
+    @include flex(center, stretch, nowrap);
+    
     margin: 0 auto;
-    // padding-top: 6%;
-    padding-bottom: 3%;
-    display: flex;
-    justify-content: center;
     background: $ground-color;
 
     &__item {

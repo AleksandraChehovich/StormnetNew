@@ -1,5 +1,7 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .work {
     position: relative;
     text-align: center;
@@ -17,17 +19,17 @@
     }
 
     &__arrows {
+        @include flex(space-between, baseline, nowrap);
+
         position: absolute;
-    top: 32%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: vw(188);
-    max-width: vw(800);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+        top: 32%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: vw(188);
+        max-width: vw(800);
+        margin: 0 auto;
+    
     }
 }
 
@@ -36,8 +38,8 @@
 }
 
 .steps {
-    display: flex;
-    justify-content: space-between;
+    @include flex(space-between, stretch, nowrap);
+    
     margin-bottom: 5%;
 
 }
@@ -48,7 +50,7 @@
     flex-direction: column;
 
     &__header {
-        // padding: 25% 0 8%;
+        
         @include header-padding(vw(100), vw(30));
 
         text-transform: uppercase;
