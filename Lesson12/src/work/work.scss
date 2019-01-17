@@ -22,12 +22,12 @@
         @include flex(space-between, baseline, nowrap);
 
         position: absolute;
-        top: 32%;
+        top: 29%;
         bottom: 0;
         left: 0;
         right: 0;
-        height: vw(188);
-        max-width: vw(800);
+        height: vw(170);
+        max-width: vw(805);
         margin: 0 auto;
     
     }
@@ -62,6 +62,12 @@
     &__text {
         font-family: $sans;
         font-size: $size-normal*1.1;
+    }
+}
+
+@media (max-width:1125px) {
+    .work__arrows {
+        max-width: vw(845);
     }
 }
 

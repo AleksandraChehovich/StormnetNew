@@ -17,10 +17,10 @@
 }
 
 @mixin input-border {
-    font-size: 10px;
+    font-size: $size-normal*0.8;
     color: $text-color2;
     border-radius: $border-rad;
-    padding: 2% 0 2% 4%;
+    padding: 2% 0 2% 41px;
     
 }
 
