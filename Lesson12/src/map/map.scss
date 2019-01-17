@@ -26,7 +26,7 @@
         
         font-family: $lato;
         font-size: vw(15);
-        margin-bottom: 5%;
+        margin-bottom: 9%;
     }
 
     &__link {
@@ -42,13 +42,19 @@
         font-size: vw(13);
         display: inline-block;
         color: $ground-color;
-        padding: vw(55) vw(60) 68px;
+        padding: vw(55) vw(60) vw(85);
         text-align: center;
     }
 }
 
-.map__address {
-    // padding: 0 28%;
-    line-height: 1.7;
 
+.map {
+
+    &__address {
+        line-height: 1.7;
+    }
+
+    &__logo {
+        width: 5%;
+    }
 }
