@@ -80,7 +80,13 @@
            }
     }
 
-    .work__arrows {
-        display: none;
+    .work { 
+        
+        &__arrows {
+            display: none;
+        }
+        &__button {
+            width: 50%;
+        }
     }
 }
