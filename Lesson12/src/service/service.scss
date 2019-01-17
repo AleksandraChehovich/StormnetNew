@@ -1,15 +1,16 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .service__header {
     color: $text-color1;
     
     @include header-padding(vw(105), vw(15));
 }
 .opportunities {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 10%;
+    @include flex(space-between, stretch, wrap);
+
+    @include header-padding(0, 10%);
 
     &__item {
         padding-top: vw(79);
@@ -33,7 +34,8 @@
 .opportunities {
 
     &__header {
-       padding-bottom: 2%;
+       @include header-padding(0, 2%);
+       
        font-family: $lato;
        text-transform: uppercase;
        font-weight: 700;
@@ -51,7 +53,14 @@
 @media (max-width:$breakpoin2) {
     .opportunities {
         flex-direction: column;
-        align-items: center;
+        // align-items: center;
+        &__item:nth-of-type(odd) {
+            align-self: flex-start;
+        }
+
+        &__item:nth-of-type(even) {
+            align-self: flex-end;
+        }
 
         &__item {
             width: 85%;
