@@ -1,5 +1,7 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .clients {
     background: $logo-color1;
 
@@ -11,11 +13,11 @@
 }
 
 .testimonial {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    @include flex(space-between, stretch, wrap);
+    
     align-content: space-between;
-    padding-bottom: 10%;
+    
+    @include header-padding(0, 10%);
 
     &__item {
         background: $ground-color;
@@ -38,7 +40,8 @@
  }
 
 .testimonial__author  {
-    padding-top: 5%;
+    @include header-padding(5%, 0);
+
     text-transform: uppercase;
     font-family: $lato;
   }
@@ -47,7 +50,7 @@
       color: $logo-color1;
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: $breakpoin2) {
     .testimonial {
         justify-content: center;
     }
@@ -57,7 +60,7 @@
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: $breakpoint3) {
     .testimonial__item {
         flex-direction: column;
         align-items: center;

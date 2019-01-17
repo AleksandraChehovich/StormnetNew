@@ -6,6 +6,16 @@
     @return ($size/$screen)*100vw;
 }
 
+@mixin flex($justify, $aling, $wrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+    flex-wrap: $wrap;
+
+    @content;
+    
+}
+
 @mixin input-border {
     font-size: 10px;
     color: $text-color2;

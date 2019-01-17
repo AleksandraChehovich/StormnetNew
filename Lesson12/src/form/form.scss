@@ -3,9 +3,10 @@
 @import "../sass/mixin.scss";
 
 .form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(space-between, center, nowrap);
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
     max-width: 100%;
 
     &__input {
@@ -53,12 +54,5 @@
         }
 
     }
-    // .form__input
-    //  {
-    //     width: 60%;
-    //     margin-bottom: 5px;
-    // }
-    // .form__button {
-    //     width: 60%;
-    // }
+    
 }
