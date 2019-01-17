@@ -23,22 +23,21 @@
 }
 
 .card {
+
+    @include header-font($lato);
     padding: 57px 31px 48px;
     text-align: center;
     color: #818b95;
-    text-transform: uppercase;
-    font-family: $lato;
     background: #ffffff;
     width: 33.3%;
     border-radius: 5px;
 
     &__header {
-        font-size: $size-normal*1.6;
+        font-size: font-size(1.9);
     }
 
     &__summ {
         @include header-padding(7%, 7%);
-        // padding: 7% 0;
         font-family: $lato;
     }
 

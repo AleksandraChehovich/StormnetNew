@@ -53,15 +53,16 @@
         
         @include header-padding(vw(100), vw(30));
 
-        text-transform: uppercase;
-        font-family: $lato;
-        font-size: $size-normal*1.7;
+        @include header-font($lato);
+
+        font-size: font-size(1.5);
+        font-weight: 700;
         color: #394b50;
     }
 
     &__text {
-        font-family: $sans;
-        font-size: $size-normal*1.1;
+        font-size: font-size(1);
+        color: #7b7b7b;
     }
 }
 

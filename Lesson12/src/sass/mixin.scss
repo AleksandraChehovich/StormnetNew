@@ -6,6 +6,11 @@
     @return ($size/$screen)*100vw;
 }
 
+@function font-size($size1) {
+
+    @return ($size-normal*$size1)+px;
+}
+
 @mixin flex($justify, $aling, $wrap) {
     display: flex;
     justify-content: $justify;
@@ -30,6 +35,11 @@
         align-items: center;
     }
         
+}
+
+@mixin header-font($font, $transform:uppercase) {
+    font-family: $font;
+    text-transform: $transform;    
 }
 
 @mixin header-padding($top, $bottom) {
