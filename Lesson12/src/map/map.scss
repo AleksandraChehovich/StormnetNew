@@ -11,7 +11,7 @@
 
 .map__address-wrapper {
     position: absolute;
-    top: 18%;
+    top: 7%;
     bottom: 0;
     right: 0;
     left: 0;
@@ -28,7 +28,7 @@
         
         @include header-font($lato);
 
-        font-size: vw(12);
+        font-size: vw(15);
         margin-bottom: vw(12);
     }
 
@@ -40,13 +40,15 @@
     }
 
     &__text {
-        width: 20%;
+        width: 26%;
         background: url(../img/address-img.png) no-repeat;
+    //    height: vw(314);
         background-size: 100%;
         font-size: vw(13);
         display: inline-block;
         color: $ground-color;
-        padding: vw(55) vw(52) vw(63);
+        // padding: vw(55) vw(52) vw(63);
+        padding: vw(80) vw(87) vw(92);
         text-align: center;
     }
 }
@@ -55,11 +57,26 @@
 .map {
 
     &__address {
-        line-height: 1.7;
+        line-height: 2;
         color: #aeb7ba;
     }
 
     &__logo {
         width: 5%;
+    }
+}
+
+@media (max-width:1330px) {
+    .map__text {
+        padding: vw(105) vw(105) vw(97) vw(105);
+        
+    }
+
+}
+
+@media (max-width:981px) {
+    .map__text {
+        padding-left: vw(95);
+        padding-right: vw(95);
     }
 }
