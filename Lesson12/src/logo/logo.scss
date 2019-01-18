@@ -1,7 +1,11 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .top-header__logo {
-    padding: 22px 0;
+
+    @include header-padding(22px, 22px);
+    
     min-width: 50px;
     flex-shrink: 0;
 }

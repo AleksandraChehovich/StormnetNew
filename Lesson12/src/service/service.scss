@@ -46,7 +46,8 @@
 
 @media (max-width:$breakpoin2) {
     .opportunities {
-        flex-direction: column;
+        
+        @include column(center);
 
         &__item:nth-of-type(odd) {
             align-self: flex-start;

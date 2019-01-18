@@ -1,12 +1,14 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .footer {
     text-align: center;
 
     &__copyright {
         background: $logo-color2;
         color: $ground-color;
-        font-size: $size-normal*1.2;
+        font-size: font-size(1);
         padding: 19px 0;
     }
 
@@ -19,8 +21,7 @@
     &__phone {
         font-size: 23px;
         color: #394b50;
-        // display: flex;
-        // justify-content: center;
+        
         @include flex(center, stretch, nowrap);
     }
 }
@@ -42,9 +43,6 @@
 
   .footer {
   
-     &__copyright {
-      font-family: $sans;
-     }
       &__number {
         color: #394b50;
       }

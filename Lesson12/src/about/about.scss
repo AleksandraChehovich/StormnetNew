@@ -1,5 +1,7 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .about {
     display: flex;
 
@@ -25,8 +27,7 @@
 .about {
     &__text {
         color: $ground-color;
-        font-size: $size-normal*1.1;
-        font-family: $sans;
+        font-size: $size-normal;
         line-height: 24px;
 
            @include header-padding(0, vw(33));

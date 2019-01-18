@@ -1,16 +1,19 @@
 @import "../sass/variables.scss";
 
+@import "../sass/mixin.scss";
+
 .header {
     color: $ground-color;
     text-align: center;
 }
 .header__first-header {
-    font-size: ($size-normal*2.7);
-    font-family: $gotham;
-    text-transform: uppercase;
+        
+    @include header-font($gotham);
+
+    font-size: font-size(2.7);
 }
 
 .header__secondary-header {
     font-size: $size-normal;
-    font-family: $sans;
+    
 }

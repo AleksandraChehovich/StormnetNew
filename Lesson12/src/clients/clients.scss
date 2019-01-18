@@ -21,10 +21,10 @@
 
     &__item {
         background: $ground-color;
-    width: 48%;
-    padding: 43px 40px 50px 30px;
-    display: flex;
-    margin-top: 2%;
+        width: 48%;
+        padding: 43px 40px 50px 30px;
+        display: flex;
+        margin-top: 2%;
     }
 
     &__avatar {
@@ -33,17 +33,16 @@
 
     &__content {
         padding-left: 6%;
-    font-size: 0.85em;
+    font-size: $size-normal;
     color: #7b7b7b;
-    font-family: $sans;
+    
     }
  }
 
 .testimonial__author  {
     @include header-padding(5%, 0);
 
-    text-transform: uppercase;
-    font-family: $lato;
+    @include header-font($lato);
   }
 
   .testimonial__author_colored {
@@ -62,7 +61,7 @@
 
   @media (max-width: $breakpoint3) {
     .testimonial__item {
-        flex-direction: column;
-        align-items: center;
+        
+        @include column(center);
     }
   }

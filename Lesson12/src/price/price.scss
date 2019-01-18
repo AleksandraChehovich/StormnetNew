@@ -87,8 +87,8 @@
 
 @media (max-width: $breakpoin2) {
     .price__card {
-        flex-direction: column;
-        align-items: center;
+        @include column(center);
+        
     }
 
     .card {

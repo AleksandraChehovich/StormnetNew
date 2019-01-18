@@ -8,7 +8,7 @@
 
 @function font-size($size1) {
 
-    @return ($size-normal*$size1)+px;
+    @return ($size-normal*$size1);
 }
 
 @mixin flex($justify, $aling, $wrap) {
@@ -47,6 +47,14 @@
     padding-bottom: $bottom;
 
        @content;   
+}
+
+@mixin column($center) {
+    flex-direction: column;
+    align-items: $center;
+
+    @content;
+    
 }
 
 @mixin hover-active {
