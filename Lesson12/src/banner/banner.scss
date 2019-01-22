@@ -3,7 +3,7 @@
 @import "../sass/mixin.scss";
 
 .banner {
-    position: relative;
+    // position: relative;
     background: $logo-color2;
     text-align: center;
 
@@ -16,11 +16,13 @@
         
         padding-right: vw(30);
         padding-left: vw(30);
-        padding-bottom: vw(350);
+        padding-bottom: vw(41);
     }
 
     &__content {
-        margin-bottom: vw(105);
+        position: relative;
+        padding-bottom: vw(347);
+        // margin-bottom: vw(105);
     }
 }
 .form__input {

@@ -1,0 +1,57 @@
+@import "../sass/variables.scss";
+
+@import "../sass/mixin.scss";
+
+.banner__slider {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: vw(-120);
+}
+
+.slider {
+
+    &__screen {
+        position: relative;
+        background: url(../../img/Vector.png);
+        max-width: vw(647);
+        min-width: vw(647);
+        min-height: vw(343);
+        background-size: cover;
+    }
+
+    &__img {
+        position: absolute;
+        width: 100%;
+        max-width: vw(445);
+        top: vw(18);
+        left: vw(102);
+    }
+
+    &__arrow {
+        position: absolute;
+        bottom: vw(190);
+
+        &_left {
+            left: vw(40);
+        }
+
+        &_right {
+            right: vw(40);
+        }
+    }
+
+    &__points {
+        display: flex;
+        padding: vw(24);
+        justify-content: center;
+    }
+
+    &__point {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 1px solid $text-color1;
+        margin: 0 4px;
+    }
+}
