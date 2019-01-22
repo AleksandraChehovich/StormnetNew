@@ -5,7 +5,7 @@
 .service__header {
     color: $text-color1;
     
-    @include header-padding(vw(105), vw(15));
+    @include header-padding(vw(203), vw(15));
 }
 .opportunities {
     @include flex(space-between, stretch, wrap);
@@ -27,8 +27,8 @@
     }
     &__content {
         font-size: $size-normal;
-        padding-right: 4%;
-        padding-left: 4%;
+        padding-right: 38px;
+        padding-left: 38px;
     }
 }
 .opportunities {

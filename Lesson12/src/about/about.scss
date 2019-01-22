@@ -35,25 +35,42 @@
     }
 
     &__button {
-        border: 1px solid #e7ad48;
+        border: 3px solid #e7ad48;
         width: 40%;
 
     }
 }
  
 @media (max-width:$breakpoint3) {
+
     .about {
         &__img {
-        display: none;
-    }
+            display: none;
+        }
+
         &__content {
+            background: url(../../img/Layer_27.png) no-repeat;
+            background-size: 100% 100%;
             width: 100%;
-            text-align: center;
-            padding-left: 10%;
-            padding-right: 10%;
         }
-        &__header {
-            text-align: center;
+
+        &__button {
+            background: none;
         }
-}
+    }
+//     .about {
+//         &__img {
+//         display: none;
+//     }
+//         &__content {
+//             width: 100%;
+//             text-align: center;
+//             padding-left: 10%;
+//             padding-right: 10%;
+//         }
+//         &__header {
+//             text-align: center;
+//         }
+// }
+       
 }
