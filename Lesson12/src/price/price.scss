@@ -85,7 +85,7 @@
     color: $ground-color;
 }
 
-@media (max-width: $breakpoin2) {
+@media (max-width: $breakpoint3) {
     .price__card {
         @include column(center);
         

@@ -6,18 +6,20 @@
     &__content {
         margin: 0 vw(34);
         min-height: vw(549);
+        min-width: vw(1102);
         background: url(../img/Layer_13.png) no-repeat;
-        background-size: 100%;
+        background-size: cover;
         position: relative;
     }
      &__text {
          position: absolute;
          background: #394b50;
          border: 3px solid #ffffff;
-         border-radius: 50%;
-         max-width: vw(292);
-         max-height: vw(292);
-         left: vw(400);
+         border-radius: 70%;
+         max-width: vw(279);
+         min-width: vw(279);
+         max-height: vw(270);
+         left: vw(446);
          top: vw(40);
          padding: vw(65) vw(68);
          text-align: center;
@@ -25,10 +27,10 @@
          &::after {
              content: '';
              position: absolute;
-             border: 10px solid transparent;
-             border-top: 20px solid #394b50;
-             top: vw(250);
-             left: vw(125);
+             border: vw(10) solid transparent;
+             border-top: vw(20) solid #394b50;
+             top: vw(255);
+             left: vw(133);
 
          }
      }
@@ -36,7 +38,7 @@
 
      &__logo {
          position: absolute;
-         left: vw(520);
+         left: vw(565);
          top: vw(332);
          width: 5%;
      }
@@ -53,6 +55,7 @@
     &__address {
         color: #aeb7ba;
         font-size: vw(13);
+        line-height: 1.5;
     }
 
     &__link {

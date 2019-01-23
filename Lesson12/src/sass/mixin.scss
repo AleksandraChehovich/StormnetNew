@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 @function vw($size) {
-    $screen:1366;
+    $screen:1349;
 
     @return ($size/$screen)*100vw;
 }
