@@ -3,7 +3,7 @@
 @import "../sass/mixin.scss";
 
 .work {
-    position: relative;
+    // position: relative;
     text-align: center;
 
     &__header {
@@ -18,29 +18,36 @@
         width: 21%;
     }
 
-    &__arrows {
-        @include flex(space-between, baseline, nowrap);
+    // &__arrows {
+    //     @include flex(space-between, baseline, nowrap);
 
-        position: absolute;
-        top: 29%;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: vw(170);
-        max-width: vw(805);
-        margin: 0 auto;
-    
-    }
+    //     position: absolute;
+    //     top: vw(-45);
+    //     left: vw(210);
+    //     max-width: vw(765);
+    //     min-width: vw(765);
+    //     min-height: vw(150);
+    //     // top: vw(250);
+    //     // left: vw(255);
+    //     // height: vw(170);
+    //     // min-width: vw(850);
+    //     // margin: 0 auto;
+
+    //     &-item_bottom {
+    //         align-self: flex-end;
+    //     }
+    // }
 }
 
-.arrows__item_bottom {
-    align-self: flex-end;
-}
+// .arrows__item_bottom {
+//     align-self: flex-end;
+// }
 
 .steps {
     @include flex(space-between, stretch, nowrap);
     
-    margin-bottom: 5%;
+    margin-bottom: vw(59);
+    position: relative;
 
 }
 
@@ -48,6 +55,7 @@
     width: 20%;
     display: flex;
     flex-direction: column;
+    position: relative;
 
     &__header {
         
@@ -64,11 +72,18 @@
         font-size: font-size(1);
         color: #7b7b7b;
     }
-}
 
-@media (max-width:1125px) {
-    .work__arrows {
-        max-width: vw(845);
+    &:nth-of-type(even)::before {
+        content: url(../../img/arrow-top.png);
+        position: absolute;
+        top: vw(-55);
+        left: vw(-125);
+    }
+    &:nth-of-type(3n)::before {
+        content: url(../../img/arrow-bottom.png);
+        position: absolute;
+        top: vw(100);
+        left: vw(-125);
     }
 }
 
@@ -85,13 +100,14 @@
            &__header {
             @include header-padding(vw(5), vw(15));
            }
+
+           &::before {
+               content: normal;
+           }
     }
 
     .work { 
-        
-        &__arrows {
-            display: none;
-        }
+
         &__button {
             width: 50%;
         }
