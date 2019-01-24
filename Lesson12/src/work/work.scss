@@ -77,13 +77,13 @@
         content: url(../../img/arrow-top.png);
         position: absolute;
         top: vw(-55);
-        left: vw(-110);
+        left: -100px;
     }
     &:nth-of-type(3n)::before {
         content: url(../../img/arrow-bottom.png);
         position: absolute;
         top: vw(100);
-        left: vw(-110);
+        left: -100px;
     }
 }
 
