@@ -5,3 +5,14 @@
     border-radius: 6px;
     margin-bottom: 3px;
 }
+
+.landing-info__border-item_circle {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #fff;
+    border-radius: 50%; 
+}
+.landing-info__border-item_line {
+    width: 275px;
+    border: 0.5px solid #fff;
+}
