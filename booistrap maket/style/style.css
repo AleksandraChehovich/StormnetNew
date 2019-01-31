@@ -16,3 +16,13 @@
     width: 275px;
     border: 0.5px solid #fff;
 }
+/* .option__icon {
+    max-width: 107px;
+    max-height: 107px;
+} */
+.option__icon-img {
+    max-width: 107px;
+    max-height: 107px;
+    min-width: 107px;
+    min-height: 107px;
+}
