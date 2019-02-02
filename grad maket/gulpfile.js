@@ -42,7 +42,7 @@ function sync() {
 }
 
 function build_sass() {
-	return gulp.src(path_to_main_scss_file, {since: gulp.lastRun(build_sass)}) // get scss file from path
+	return gulp.src(path_to_main_scss_file) // get scss file from path
 	.pipe(sourcemaps.init()) // init sourcemaps (for resolving from which scss file your css selector was built) http://prntscr.com/m6rj2p
 	.pipe(sass().on('error', sass.logError)) // compile scss to css
 	.pipe(sourcemaps.write()) // write sourcemaps to css files
