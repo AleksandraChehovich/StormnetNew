@@ -28,6 +28,12 @@ body {
     font-family: 'montserrat';
 }
 
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}         
+
 @import "./variables.scss";
 
 @import "./mixin.scss";
