@@ -2,13 +2,18 @@
 @import './mixin.scss';
 
 .banner {
-    background-image: url(../img/banner-img.png);
+    background-image: url(../img/banner-bg.png);
     background-size: cover;
 
     &__content {
 
         @include py(vw(28), vw(28));
     }
+
+    // &__wrapper {
+    //     background: url(../img/banner-img.png);
+    //     opacity: 0.1;  
+    // }
 
     &__header {
         display: flex;
@@ -30,6 +35,7 @@
         justify-content: space-between;
         color: $text-white;
         text-transform: uppercase;
+        opacity: 0.5;
 
         &-item  {
             width: 23.5%;
