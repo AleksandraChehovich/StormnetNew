@@ -1,0 +1,28 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.about {
+
+    &__content {
+        @include py(vw(90), vw(108));
+    }
+
+    &__photo {
+        display: flex;
+        justify-content: space-between;
+
+        @include my(vw(100), 0);
+
+        &-item2 {
+            background: url(../img/headphone.png);
+        }
+
+        &-item3 {
+            background: url(../img/plant.png);
+        }
+    }
+}
+
+.photo {
+    min-width: vw(382);
+}

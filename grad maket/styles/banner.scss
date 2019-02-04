@@ -6,7 +6,6 @@
     background-size: cover;
 
     &__content {
-        text-align: center;
 
         @include py(vw(28), vw(28));
     }
@@ -14,10 +13,30 @@
     &__header {
         display: flex;
         justify-content: space-between;
+        align-items: baseline;
     }
 
     &__logo {
         color: $text-white;
         font-size: $text-size*2;
+    }
+
+    &__button {
+        @include my(0, vw(155));
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        color: $text-white;
+        text-transform: uppercase;
+
+        &-item  {
+            width: 23.5%;
+            border-top: 3px solid $text-white;
+            text-align: left;
+
+            @include py(vw(24), 0);
+        }
     }
 }

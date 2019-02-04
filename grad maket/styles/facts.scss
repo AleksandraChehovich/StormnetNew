@@ -1,0 +1,19 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.facts {
+    background: $bg-color;
+
+    &__numbers {
+        display: flex;
+    }
+
+    &__number {
+        width: 19.66%;
+        border-left: 2px solid $text-white;
+        
+        &:last-of-type {
+            border-right: 2px solid $text-white;
+        }        
+    }
+}

@@ -1,0 +1,18 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.number {
+    text-align: center;
+    color: $text-white;
+
+    @include py(vw(90), vw(90));
+
+    &__summ {
+        font-size: $text-size*3.46;
+    }
+
+    &__text {
+        font-size: $text-size*0.67;
+        text-transform: uppercase;
+    }
+}

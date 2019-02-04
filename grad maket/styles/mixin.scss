@@ -14,9 +14,13 @@
 @mixin px($left, $right) {
     padding-left: $left;
     padding-right: $right;
+
+    @content;
 }
 
 @mixin my($top, $bottom) {
     margin-top: $top;
     margin-bottom: $bottom;
+
+    @content;
 }

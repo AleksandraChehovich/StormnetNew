@@ -1,0 +1,11 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.text {
+    font-family: 'roboto';
+    color: $text-gray;
+    font-size: $text-size;
+    font-weight: 400;
+    max-width: 79.5%;
+    margin: 0 auto;
+}

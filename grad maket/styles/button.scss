@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.button {
+    background: $button-color;
+    border: 3px solid $text-white;
+    padding: 0;
+
+    &__item {
+        font-family: 'montserrat';
+        font-size: $text-size*0.73;
+        padding: 11px 34px;
+    }
+}
