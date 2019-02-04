@@ -1,0 +1,13 @@
+@import './variables.scss';
+
+.line {
+    border: 1.5px solid $line-color;
+    width: 60px;
+    margin: 0 auto;
+
+    @include my(vw(40), vw(45));
+
+    &_light {
+        border-color: $text-white;
+    }
+}

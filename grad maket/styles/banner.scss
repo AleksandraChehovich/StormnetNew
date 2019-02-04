@@ -1,0 +1,23 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.banner {
+    background-image: url(../img/banner-img.png);
+    background-size: cover;
+
+    &__content {
+        text-align: center;
+
+        @include py(vw(28), vw(28));
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        color: $text-white;
+        font-size: $text-size*2;
+    }
+}

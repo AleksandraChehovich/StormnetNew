@@ -3,3 +3,20 @@
 
     @return ($size/$screen)*100vw;
 }
+
+@mixin py($top, $bottom) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+
+    @content;
+}
+
+@mixin px($left, $right) {
+    padding-left: $left;
+    padding-right: $right;
+}
+
+@mixin my($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
