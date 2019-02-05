@@ -1,0 +1,6 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.services2__content {
+    @include py(vw(100), 0);
+}

@@ -1,0 +1,9 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.future {
+
+    &__content {
+        @include py(vw(110), 0);
+    }
+}
