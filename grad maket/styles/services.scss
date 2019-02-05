@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.services {
+    @include py(vw(110), vw(120));
+
+    &__options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        // @include py(vw(65), 0);
+    }
+
+    &__option {
+        width: 31%;
+
+        &:nth-child(n+4) {
+            padding-top: vw(90);
+        }
+    }
+}
