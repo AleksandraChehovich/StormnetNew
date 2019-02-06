@@ -3,6 +3,7 @@
 
 .future {
     background: url(../img/future-img.png);
+    background-size: cover;
 
     &__wrapper {
         background: rgba(255, 255, 255, 0.85);
@@ -17,17 +18,16 @@
     &__img {
         background: url(../img/display_bg_768x1024.png) no-repeat;
         background-size: cover;
-        opacity: 1;
         position: relative;
         max-width: vw(477);
         min-width: vw(477);
-        height: vw(582);
-        margin: 0 auto;
+        min-height: vw(582);
 
         &-item_small {
             position: absolute;
             bottom: vw(-91);
-            right: vw(-140);
+            right: vw(-155);
+            max-width: vw(274);
 
         }
     }
