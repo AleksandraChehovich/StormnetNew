@@ -7,28 +7,35 @@
 
     &__wrapper {
         background: rgba(255, 255, 255, 0.85);
-        opacity: 0.9;
     }
 
     &__content {
+        position: relative;
 
         @include py(vw(110), 0);       
     }
 
+    &__line {
+        margin-bottom: vw(627);
+    }
+
     &__img {
-        background: url(../img/display_bg_768x1024.png) no-repeat;
+
+        background: url(../img/display_bg_768x1024.png);
         background-size: cover;
-        position: relative;
-        max-width: vw(477);
+        left: 50%;
+        transform: translate(-50%);
+        position: absolute;
+        width: vw(477);
         min-width: vw(477);
         min-height: vw(582);
 
-        &-item_small {
-            position: absolute;
-            bottom: vw(-91);
-            right: vw(-155);
-            max-width: vw(274);
+    //     &-item_small {
+    //         position: absolute;
+    //         bottom: vw(-91);
+    //         right: vw(-155);
+    //         max-width: vw(274);
 
-        }
+    //     }
     }
 }
