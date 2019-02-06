@@ -13,16 +13,36 @@
 
         @include my(vw(100), 0);
 
-        &-item2 {
-            background: url(../img/headphone.png);
-        }
 
-        &-item3 {
-            background: url(../img/plant.png);
-        }
+        // &-item:hover {
+        //     background: url(../img/plant.png);
+
+
+        // }
+
+        // &-item3 {
+        //     background: url(../img/plant.png);
+        // }
     }
 }
 
 .photo {
-    min-width: vw(382);
+    $photo: &;
+    
+    max-width: vw(380);
+    max-height: vw(250);
+
+    &__item {
+        min-width: vw(380);
+        max-width: vw(380);
+        min-height: vw(250);
+    }
+
+    &:hover {
+        background: url(../img/about-screen.png);
+
+        #{$photo}__item {
+            opacity: 0.1;
+        }
+    }
 }

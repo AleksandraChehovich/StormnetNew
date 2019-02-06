@@ -3,11 +3,11 @@
 .button {
     background: $button-color;
     border: 3px solid $text-white;
-    padding: 0;
+    padding: 15px 0;
 
     &__item {
         font-family: 'montserrat';
         font-size: $text-size*0.73;
-        padding: 11px 34px;
+        padding: 15px 34px;
     }
 }

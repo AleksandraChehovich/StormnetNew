@@ -2,8 +2,33 @@
 @import './mixin.scss';
 
 .future {
+    background: url(../img/future-img.png);
+
+    &__wrapper {
+        background: rgba(255, 255, 255, 0.85);
+        opacity: 0.9;
+    }
 
     &__content {
-        @include py(vw(110), 0);
+
+        @include py(vw(110), 0);       
+    }
+
+    &__img {
+        background: url(../img/display_bg_768x1024.png) no-repeat;
+        background-size: cover;
+        opacity: 1;
+        position: relative;
+        max-width: vw(477);
+        min-width: vw(477);
+        height: vw(582);
+        margin: 0 auto;
+
+        &-item_small {
+            position: absolute;
+            bottom: vw(-91);
+            right: vw(-140);
+
+        }
     }
 }
