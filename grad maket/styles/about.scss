@@ -31,18 +31,27 @@
     
     max-width: vw(380);
     max-height: vw(250);
+    background: $bg-color;
+    position: relative;
 
     &__item {
-        min-width: vw(380);
-        max-width: vw(380);
-        min-height: vw(250);
+        // position: absolute;
+        // top: 0;
+        // left: 0;
+        // object-fit: cover;
+    //    height: auto;
+    //    width: 100%;
+    //    max-width: vw(380);
     }
 
     &:hover {
-        background: url(../img/about-screen.png);
+        // background: url(../img/about-screen.png);
 
         #{$photo}__item {
-            opacity: 0.1;
+            // top: -5%;
+            // left: -5%;
+            // opacity: 0.1;
+            background: url(../img/about-screen.png);
         }
     }
 }

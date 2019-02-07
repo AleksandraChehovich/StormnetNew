@@ -10,32 +10,45 @@
     }
 
     &__content {
-        position: relative;
+        // position: relative;
 
         @include py(vw(110), 0);       
     }
 
-    &__line {
-        margin-bottom: vw(627);
-    }
+    // &__line {
+    //     margin-bottom: vw(627);
+    // }
 
     &__img {
+        margin: 0 auto;
+        max-width: vw(477);
 
-        background: url(../img/display_bg_768x1024.png);
-        background-size: cover;
-        left: 50%;
-        transform: translate(-50%);
-        position: absolute;
-        width: vw(477);
-        min-width: vw(477);
-        min-height: vw(582);
+        &-item {
+            position: relative;
+            background: url(../img/display_bg_768x1024.png);
+            background-size: cover;
+            max-width: vw(477);
+            min-width: vw(477);
+            min-height: vw(582);
+        }
 
-    //     &-item_small {
-    //         position: absolute;
-    //         bottom: vw(-91);
-    //         right: vw(-155);
-    //         max-width: vw(274);
+        // background: url(../img/display_bg_768x1024.png);
+        // background-size: cover;
+        // left: 50%;
+        // transform: translate(-50%);
+        // position: absolute;
+        // width: vw(477);
+        // width: vw(477);
+        // height: vw(582);
 
-    //     }
+        &-item_small {
+            position: absolute;
+            bottom: vw(-91);
+            right: vw(-120);
+            max-width: vw(274);
+            min-width: vw(274);
+            min-height: vw(430);
+
+        }
     }
 }
