@@ -1,6 +1,13 @@
 @import './mixin.scss';
 @import './variables.scss';
 
-.services2__content {
+.services2 {
+
+    &__content {
     @include py(vw(100), 0);
+    }
+    &__presentation {
+        display: flex;
+        @include py(vw(92),vw(120));
+    }
 }
