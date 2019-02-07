@@ -9,14 +9,20 @@
         flex-wrap: wrap;
         justify-content: space-between;
 
-        // @include py(vw(65), 0);
+        @include px(31px,31px);
     }
 
     &__option {
-        width: 31%;
+        width: 33%;
 
         &:nth-child(n+4) {
             padding-top: vw(90);
         }
     }
 }
+
+// .option {
+//     &__content {
+//         @include px(27px,20px);
+//     }
+// } 

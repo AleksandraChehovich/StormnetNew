@@ -1,11 +1,11 @@
 .icon {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 32px;
+  height: 32px;
   stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
+  stroke: #95e1d3;
+  fill:#95e1d3;
+}  
 
 /* ==========================================
 Single-colored icons can be modified like so:

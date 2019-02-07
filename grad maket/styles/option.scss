@@ -11,10 +11,13 @@
 
     &__content {
         text-align: left;
+        @include px(27px,75px);
     }
     &__header {
         color: $text-black;
         text-transform: uppercase;
+
+        @include py(0,20px);
     }
 
     &__text {
