@@ -5,6 +5,7 @@
 
     &__img {
         background: url(../img/services2.png) no-repeat;
+        background-size: 100%;
         max-width: vw(470);
         min-width: vw(470);
         min-height: vw(380);
@@ -12,16 +13,21 @@
 
     &__form {
         margin-left: 15px;
+        width: 45%;
     }
 
     &__content {
         border: 1px solid $text-gray;
         display: flex;
+        padding: 15px;
+        align-items: center;
     }
 
     &__header {
         text-transform: uppercase;
         font-size: $text-size*0.67;
         color: $text-black;
+
+        @include px(15px,0);
     }
 }
