@@ -1,0 +1,60 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.testimonials {
+    background: url(../img/testimonials-img.png);
+
+    &__wrapper {
+        background: rgba(255, 255, 255, 0.85);
+
+    }
+
+    &__line {
+        margin-bottom: 0;
+    }
+
+    &__content {
+
+        @include py(vw(110), vw(130));
+    }
+}
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+        width: 45%;
+
+        @include my(vw(81), 0);
+    }
+
+    &__icon {
+        min-width: 110px;
+        min-height: 110px;
+        border-radius: 50%;
+    }
+
+    &__line {
+        margin: 12px 0;
+    }
+
+    &__content {
+        text-align: left;
+        margin-left: 30px;
+    }
+
+    &__work {
+        font-family: 'roboto-light';
+    }
+
+    &__text {
+        font-family: 'roboto';
+        color: $text-gray;
+        margin-top: 12px;
+    }
+
+}
