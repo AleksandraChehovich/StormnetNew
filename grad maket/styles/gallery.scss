@@ -2,5 +2,47 @@
 @import './mixin.scss';
 
 .gallery {
+    display: flex;
+    justify-content: space-between;
     
+}
+.photo {
+
+    position: relative;
+
+    &__img {
+        background: $bg-color;
+        // max-width: vw(380);
+        // min-width: vw(380);
+        // min-height: vw(250);
+    }
+
+    &__cover {
+        position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     height: 100%;
+    }
+
+    // &__bg {
+    //     // display: none;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     height: 100%;
+    //     background: linear-gradient(to top, rgba(239, 217, 137, 1), rgba(231, 130, 130, 1));
+    //     opacity: 0.9;
+
+    //     &-content {
+    //         color: $text-white;
+    //         text-transform: uppercase;
+    //         font-size: $text-size*1.2;
+            
+    //         @include py (vw(100), vw(100));
+    //     }
+    // }
 }

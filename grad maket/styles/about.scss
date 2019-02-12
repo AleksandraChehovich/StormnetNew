@@ -7,9 +7,9 @@
         @include py(vw(90), vw(108));
     }
 
-    &__photo {
-        display: flex;
-        justify-content: space-between;
+    &__photos {
+        // display: flex;
+        // justify-content: space-between;
 
         @include my(vw(100), 0);
 
