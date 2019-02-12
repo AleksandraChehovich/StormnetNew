@@ -4,6 +4,10 @@
 .quotes {
     background: $bg-light-color;
     font-size: $text-size*1.6;
+
+    &_light {
+        background: $text-white;
+    }
     
 
 }
@@ -16,6 +20,7 @@
 
     @include px(vw(110), vw(110));
 
+
     &__wrapper {
         margin-left: 61px;
         text-align: left;
@@ -25,6 +30,13 @@
         border: 3px solid $bg-color;
         min-width: 150px;
         min-height: 150px;
+
+        &_img {
+            border-radius: 50%;
+            border: none;
+            background: url(../img/testimonial.png);
+            background-position: center;
+        }
     }
 
     &__text {

@@ -1,0 +1,10 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.work {
+
+    &__content {
+
+        @include py(vw(110), 0);
+    }
+}
