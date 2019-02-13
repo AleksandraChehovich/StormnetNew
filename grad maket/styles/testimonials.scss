@@ -2,7 +2,8 @@
 @import './mixin.scss';
 
 .testimonials {
-    background: url(../img/testimonials-img.png);
+    background: url(../img/testimonials-img.png) no-repeat;
+    background-size: cover;
 
     &__wrapper {
         background: rgba(255, 255, 255, 0.85);
@@ -23,6 +24,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @include px(vw(40),vw(40));
 
     &__item {
         display: flex;

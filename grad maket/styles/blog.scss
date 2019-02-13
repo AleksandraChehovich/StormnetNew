@@ -1,0 +1,85 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.blog {
+
+    &__content {
+
+        @include py(vw(110), vw(120));
+    }
+
+    &__days {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+}
+
+.day {
+    position: relative;
+
+    &__img {
+        max-width: vw(380);
+        min-width: vw(380);
+        // min-height: vw(240);
+        height: 100%;
+
+        &-item {
+            width: 100%;
+        }
+    }
+
+    
+
+    &__content {
+    border-bottom: 2px solid #e5e5e5;
+    margin-bottom: 20px;
+    }
+
+    &:nth-of-type(n+2) {
+        margin-left: 30px;
+    }
+
+    &__header,
+    &__text {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    &__header {
+        color: $text-black;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        color: $text-gray;
+        font-family: 'roboto';
+        margin-bottom: 20px;
+    }
+}
+
+.popularity {
+    display: flex;
+    color: $text-gray;
+    font-family: 'roboto-light';
+
+    &__item {
+        margin-right: 7px;
+    }
+
+}
+
+.date {
+    position: absolute;
+    left: -10px;
+    top:160px;
+    width: 60px;
+    height: 70px;
+    background: $bg-color;
+    padding: 15px;
+    color: $text-white;
+
+    &__month {
+        font-family: 'roboto-light';
+    }
+}

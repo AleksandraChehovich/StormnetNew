@@ -5,7 +5,12 @@
   stroke-width: 0;
   stroke: #95e1d3;
   fill:#95e1d3;
-}  
+} 
+
+.icon_small {
+  width: 16px;
+  height: 16px;
+}
 
 /* ==========================================
 Single-colored icons can be modified like so:
