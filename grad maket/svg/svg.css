@@ -7,11 +7,24 @@
   fill:#95e1d3;
 } 
 
-.icon_small {
+.icon_large {
+  width: 63px;
+  height: 63px;
+  stroke: #fff;
+  fill:#95e1d3;
+}
+
+.icon_xsmall {
   width: 16px;
   height: 16px;
 }
 
+.icon_small {
+  width: 18px;
+  height: 18px;
+  stroke: #fff;
+  fill:#fff;
+}
 /* ==========================================
 Single-colored icons can be modified like so:
 .icon-name {

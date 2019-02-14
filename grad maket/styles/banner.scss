@@ -35,6 +35,7 @@
     &__nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         color: $text-white;
         text-transform: uppercase;
         opacity: 0.9;
@@ -50,9 +51,7 @@
 }
 
 .menu {
-    &__icon {
-        width: 18px;
-        height: 18px;
-
+    &__item:not(:first-child) {
+         margin-left: 55px;
     }
 }

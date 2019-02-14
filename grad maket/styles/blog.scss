@@ -71,8 +71,8 @@
 
 .date {
     position: absolute;
-    left: -10px;
-    top:160px;
+    left: vw(-10);
+    top:vw(160);
     width: 60px;
     height: 70px;
     background: $bg-color;
