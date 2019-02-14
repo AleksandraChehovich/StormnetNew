@@ -17,6 +17,10 @@
         // background-size: cover;
     }
 
+    &__heading {
+        @include py(vw(180),0);
+    }
+
     &__header {
         display: flex;
         justify-content: space-between;
@@ -53,5 +57,14 @@
 .menu {
     &__item:not(:first-child) {
          margin-left: 55px;
+    }
+
+    &__item {
+        padding-bottom: 12px;
+
+        &:hover {
+            color: $button-color;
+            border-bottom: 2px solid $button-color;
+        }
     }
 }
