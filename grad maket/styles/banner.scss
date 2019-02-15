@@ -55,16 +55,24 @@
 }
 
 .menu {
+    $menu:&;
+
     &__item:not(:first-child) {
          margin-left: 55px;
     }
 
     &__item {
+
         padding-bottom: 12px;
 
         &:hover {
             color: $button-color;
             border-bottom: 2px solid $button-color;
+
+            // #($menu)__icon {
+            //     fill: $button-color;
+            //     stroke: $button-color;
+            // }
         }
     }
 }

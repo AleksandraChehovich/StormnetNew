@@ -25,6 +25,13 @@
     @content;
 }
 
+@mixin mx($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+
+    @content;
+}
+
 @mixin img {
     position: absolute;
     left: 0;

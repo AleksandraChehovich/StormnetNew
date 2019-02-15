@@ -64,7 +64,12 @@
     font-family: 'roboto-light';
 
     &__item {
-        margin-right: 7px;
+        font-size: $text-size*0.85;
+
+        &:nth-of-type(2n) {
+            
+            @include mx(7px,19px);
+        }
     }
 
 }
@@ -73,13 +78,18 @@
     position: absolute;
     left: vw(-10);
     top:vw(160);
-    width: 60px;
-    height: 70px;
+    width: vw(60);
+    height: vw(70); 
     background: $bg-color;
-    padding: 15px;
+    padding: vw(15);
     color: $text-white;
 
     &__month {
         font-family: 'roboto-light';
+        font-size: vw(15);
+    }
+
+    &__num {
+        font-size: vw(20);
     }
 }
