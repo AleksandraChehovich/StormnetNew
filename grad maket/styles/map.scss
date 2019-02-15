@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.map {
+    background: url(../img/map.png) no-repeat;
+    background-size: cover;
+
+    &__wrapper {
+        background: rgba(255, 255, 255, 0.85);
+    }
+
+    &__content {
+        text-align: center;
+
+        @include py(vw(57), vw(12));
+    }
+
+    &__link {
+        color: $line-color;
+        font-size: $text-size*1.6;
+    }
+}
