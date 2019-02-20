@@ -1,0 +1,45 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.social {
+    text-align: left;
+    max-width: vw(480);
+
+    &__logo {
+        color: $text-gray-light;
+        font-size: 34px;
+    }
+
+    &__text {
+        color: $text-gray;
+        font-family: 'roboto';
+
+        @include my(vw(42), vw(49));
+    }
+
+    &__network {
+        display: flex;
+        font-size: $text-size*0.86;
+        font-family: 'roboto-light';
+        color: $text-gray;
+
+        @include my(0, 38px);
+
+        &-item {
+            @include px(7px, 7px);
+        }
+    }
+}
+
+.followers {
+    font-size: $text-size*0.9;
+    border-bottom:1px solid $border-color;
+    margin-bottom: 18px;
+
+    @include py (0, 18px);
+
+    &_bright {
+        font-size: $text-size*1.2;
+        font-weight: bold;
+    }
+}

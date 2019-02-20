@@ -1,0 +1,13 @@
+@import './mixin.scss';
+@import './variables.scss';
+
+.bloging {
+    text-align: left;
+
+    &__header {
+        font-size: $text-size*0.67;
+        text-transform: uppercase;
+
+        @include my(0, 40px);
+    }
+}

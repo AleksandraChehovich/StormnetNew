@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './mixin.scss';
+
+.footer {
+    &__content {
+        display: flex;
+        border-bottom: 1px solid $border-color;
+
+        @include py (vw(74), vw(70));
+    }
+
+    &__copyright {
+        margin: 0 auto;
+    }
+}
