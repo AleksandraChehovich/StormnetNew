@@ -6,15 +6,17 @@
     &__input {
         padding: 15px 0 15px 13px;
         font-family: 'roboto-light';
+        font-size: $text-size*0.86;
         border: 1px solid #e7e7e7;
 
         &_blue {
             background: $bg-color;
             color: $text-white;
             font-weight: 700;
+            font-size: $text-size*0.73;
             font-family: 'monserrat';
             text-transform: uppercase;
-            border: 2px solid $bg-color;
+            border: 3px solid $bg-color;
             cursor: pointer;
             padding: 15px 34px;
         }

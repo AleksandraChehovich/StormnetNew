@@ -3,7 +3,6 @@
 
 .social {
     text-align: left;
-    max-width: vw(480);
 
     &__logo {
         color: $text-gray-light;
@@ -12,6 +11,7 @@
 
     &__text {
         color: $text-gray;
+        font-size: $text-size*0.9;
         font-family: 'roboto';
 
         @include my(vw(42), vw(49));

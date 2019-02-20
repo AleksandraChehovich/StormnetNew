@@ -10,6 +10,26 @@
     }
 
     &__copyright {
-        margin: 0 auto;
+        text-align: center;
+        @include my(25px, 25px);
+        font-size: $text-size*0.8;
+
+        &_red {
+            color: $line-color;
+        }
     }
+
+    &__social {
+        width: 88%;
+        @include mx (0, 50px);
+    }
+
+    &__bloging {
+        width: 67%;
+    }
+
+    &__instagram {
+        @include mx (vw(86), 0);
+    }
+
 }
