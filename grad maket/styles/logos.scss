@@ -5,6 +5,8 @@
     background: $bg-light-color;
 
     &__content {
+        display: flex;
+        justify-content: space-between;
 
         @include py(vw(50), vw(50));
     }
