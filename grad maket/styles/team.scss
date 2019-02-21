@@ -5,4 +5,11 @@
     &__content {
         @include py(vw(100), vw(115));
     }
+
+    &__photos {
+        display: flex;
+        justify-content: space-between;
+
+        @include my (vw(82), vw(117));
+    }
 }

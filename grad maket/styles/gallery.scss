@@ -1,11 +1,7 @@
 @import './variables.scss';
 @import './mixin.scss';
 
-.gallery {
-    display: flex;
-    justify-content: space-between;
-    
-}
+
 .photo {
     $photo:&;
 
@@ -15,12 +11,17 @@
     min-width: vw(380);
     min-height: vw(250);
 
+    &_large {
+        max-width: vw(380);
+        min-width: vw(380);
+        min-height: vw(470);
+    }
+
     &:hover {
         #{$photo} {
             &__img {
                 top: vw(-10);
                 left: vw(-10);
-                // z-index: 1;
             }
         }
         
@@ -30,7 +31,6 @@
             left: vw(-10);
             right: vw(10);
             bottom: vw(10);
-            // display: none;
         }
     }
 
@@ -55,9 +55,7 @@
         left: 0;
         background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
         z-index: 1;
-        // max-width: vw(380);
-        // min-width: vw(380);
-        // min-height: vw(250);
+
         
         &-content {
             display: flex;

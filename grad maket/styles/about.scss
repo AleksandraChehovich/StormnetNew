@@ -8,21 +8,11 @@
     }
 
     &__photos {
-        // display: flex;
-        // justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
 
         @include my(vw(100), 0);
 
-
-        // &-item:hover {
-        //     background: url(../img/plant.png);
-
-
-        // }
-
-        // &-item3 {
-        //     background: url(../img/plant.png);
-        // }
     }
 }
 
