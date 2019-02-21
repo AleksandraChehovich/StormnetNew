@@ -2,11 +2,10 @@
 @import './mixin.scss';
 
 .quotes {
-    background: $bg-light-color;
     font-size: $text-size*1.6;
 
-    &_light {
-        background-color: #fff;
+    &_bg_blue {
+        background: $bg-light-color;
     }
     
 
