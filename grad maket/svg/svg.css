@@ -26,6 +26,11 @@
   fill:#fff;
 }
 
+.icon_light {
+  stroke: #fff;
+  fill:#fff;
+}
+
 /* ==========================================
 Single-colored icons can be modified like so:
 .icon-name {
