@@ -1,5 +1,5 @@
 @function vw($size) {
-    $screen:1349;
+    $screen:1350;
 
     @return ($size/$screen)*100vw;
 }

@@ -7,4 +7,11 @@
 
         @include py(vw(110), 0);
     }
+
+    &__exposition {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include my(vw(102), 0);
+    }
 }

@@ -12,9 +12,12 @@
     min-height: vw(250);
 
     &_large {
-        max-width: vw(380);
-        min-width: vw(380);
         min-height: vw(470);
+    }
+
+    &:nth-of-type(n+2) {
+
+        @include mx(30px,0);
     }
 
     &:hover {
@@ -60,6 +63,10 @@
             @include py(vw(207), vw(207));
         }
 
+        &-text {
+            font-size: vw(15);
+        }
+
         
         &-content {
             display: flex;
@@ -71,7 +78,6 @@
             &_color_yellow {
                 display: inline-flex;
                 flex-direction: row;
-                background: #fce38a;
 
                 // @include py(15px, 5px);
             }
@@ -79,16 +85,16 @@
 
         &-icon {
             
-            @include my (0, 11px);
+            @include my (0, vw(11));
 
             &_color_red {
                 margin: 0;
+                background: #fce38a;
+
 
                 &:nth-of-type(n+2) {
                     border-left: 1px solid $line-color;
                 }
-
-                @include px(15px, 15px);
 
                 @include py(15px, 15px);
                 
