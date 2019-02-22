@@ -26,6 +26,13 @@
   fill:#fff;
 }
 
+.icon_middle {
+  width: 18px;
+  height: 18px;
+  stroke: #f38181;
+  fill:#f38181;
+}
+
 .icon_light {
   stroke: #fff;
   fill:#fff;
