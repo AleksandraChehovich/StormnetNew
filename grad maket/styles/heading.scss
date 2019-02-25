@@ -6,7 +6,7 @@
 
         &_big {
             color: $text-white;
-            font-size: $text-size*4.8;
+            font-size: vw(72);
         }
     }
 
@@ -17,7 +17,7 @@
 
         &_big {
             color: $text-white;
-            font-size: $text-size*10;
+            font-size: vw(150);
         }
     }
 
