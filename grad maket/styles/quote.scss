@@ -18,7 +18,6 @@
 
     @include px(vw(110), vw(110));
 
-
     &__wrapper {
         margin-left: 61px;
         text-align: left;
@@ -63,7 +62,25 @@
     }
 
     &__arrow {
-        width: vw(100);
+        position: absolute;
+        width: vw(110);
         cursor: pointer;
+        fill: $text-gray-light;
+        stroke: $text-gray-light;
+
+        @include py (vw(134), vw(134));
+
+        &_left {
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+
+        &_right {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            transform: scale(-1, 1);
+        }
     }
 }

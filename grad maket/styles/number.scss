@@ -8,11 +8,11 @@
     @include py(vw(90), vw(90));
 
     &__summ {
-        font-size: $text-size*3.46;
+        font-size: vw(51);
     }
 
     &__text {
-        font-size: $text-size*0.67;
+        font-size: vw(14);
         text-transform: uppercase;
     }
 }

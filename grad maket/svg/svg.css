@@ -54,6 +54,9 @@ Single-colored icons can be modified like so:
   width: 0.9375em;
 }
 
-.icon-users {
-  width: 1.125em;
+.icon_arrow {
+  fill: #ccc;
+  stroke: #ccc;
+  width: 18px;
+  height: 18px;
 }
