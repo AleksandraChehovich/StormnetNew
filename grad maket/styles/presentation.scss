@@ -17,6 +17,7 @@
     }
 
     &__content {
+        position: relative;
         border: 1px solid $text-gray;
         display: flex;
         padding: 15px;
@@ -29,5 +30,12 @@
         color: $text-black;
 
         @include px(15px,0);
+    }
+
+    &__arrow {
+        cursor: pointer;
+        position: absolute;
+        transform: rotate(-90deg);
+        right: 20px;
     }
 }
