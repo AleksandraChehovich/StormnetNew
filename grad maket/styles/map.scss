@@ -15,6 +15,10 @@
         @include py(vw(57), vw(12));
     }
 
+    &__location {
+        @include my(0, 18px);
+    }
+
     &__link {
         color: $line-color;
         font-size: $text-size*1.6;
