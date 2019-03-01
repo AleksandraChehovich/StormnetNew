@@ -8,10 +8,42 @@
         @include py(vw(110), 0);
     }
 
-    &__exposition {
+    
+}
+
+.exposition {
+    $exp:&;
+
+    display: flex;
+    @include my(vw(102), 0);
+
+    &__wrap {
         display: flex;
         flex-wrap: wrap;
+    }
 
-        @include my(vw(102), 0);
+    &__item {
+        position: relative;
+        max-width: vw(337);
+        min-width: vw(337);
+        min-height: vw(275);
+        background: $linear-gradient;
+
+        &_large {
+            max-width: vw(337);
+            min-width: vw(337);
+            min-height: vw(549);
+        }
+
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+
     }
 }
