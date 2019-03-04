@@ -14,4 +14,10 @@
         justify-content: space-between;
         align-items: center;
     }
+
+    &__item-icon {
+        max-width: vw(150);
+        min-width: vw(150);
+        min-height: vw(150);
+    }
 }
