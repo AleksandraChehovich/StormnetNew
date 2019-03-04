@@ -2,6 +2,7 @@
 @import './mixin.scss';
 
 .presentation {
+    $present:&;
 
     &__img {
         background: url(../img/services2.png) no-repeat;
@@ -19,9 +20,7 @@
     &__content {
         position: relative;
         border: 1px solid $text-gray;
-        display: flex;
         padding: 15px;
-        align-items: center;
     }
 
     &__header {
@@ -37,5 +36,34 @@
         position: absolute;
         transform: rotate(-90deg);
         right: 20px;
+    }
+
+    &__spoiler {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        font-family: 'roboto-light';
+        color: $text-gray;
+        padding: 20px 55px 20px 20px;
+        border-top: 1px solid $text-gray;
+    }
+    &__text,
+    &__input {
+        display: none;
+    }
+
+    &__input:checked {
+        #{$present} {
+            &__arrow {
+            transform: rotate(180deg);
+
+            }
+
+            &__text {
+                display: block;
+            }
+        }
     }
 }
