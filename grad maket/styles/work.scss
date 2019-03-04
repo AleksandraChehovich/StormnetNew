@@ -3,6 +3,8 @@
 
 .work {
 
+    @include my(0, vw(70));
+
     &__content {
 
         @include py(vw(110), 0);
