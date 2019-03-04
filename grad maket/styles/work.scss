@@ -17,6 +17,7 @@
     $exp:&;
 
     display: flex;
+    overflow: hidden;
     @include my(vw(102), 0);
 
     &__wrap {

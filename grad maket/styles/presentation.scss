@@ -14,7 +14,8 @@
 
     &__form {
         margin-left: 15px;
-        width: 49%;
+        // width: 49%;
+        flex-grow: 1;
     }
 
     &__content {
