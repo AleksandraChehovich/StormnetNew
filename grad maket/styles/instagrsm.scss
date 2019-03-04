@@ -2,23 +2,22 @@
 @import './mixin.scss';
 
 .instagram {
-    text-align: left;
-    
-
     &__header {
         font-size: $text-size*0.67;
         text-transform: uppercase;
 
         @include my(0, 40px);
     }
+    
     &__images {
-         display: flex;
-         flex-wrap: wrap;
-     }
+        max-width: 270px;
+        font-size: 0;
+    }
 
     &__image {
-         margin: 1px;
-     }
+        padding: 1px;
+    }
+
     &__more {
         @include my(20px, 0);
 

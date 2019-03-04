@@ -4,6 +4,7 @@
 .footer {
     &__content {
         display: flex;
+        flex-wrap: wrap;
         border-bottom: 1px solid $border-color;
 
         @include py (vw(74), vw(70));
@@ -19,17 +20,10 @@
         }
     }
 
-    &__social {
-        width: 88%;
-        @include mx (0, 50px);
-    }
-
-    &__bloging {
-        width: 67%;
-    }
-
-    &__instagram {
-        @include mx (vw(86), 0);
+    &__column {
+        text-align: left;
+        flex-grow: 1;
+        margin-bottom: 30px;
     }
 
 }

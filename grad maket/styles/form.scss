@@ -2,6 +2,15 @@
 @import './mixin.scss';
 
 .form {
+    $self: &;
+
+    &--horizontal {
+        display: flex;
+
+        #{$self}__input {
+            flex-grow: 1;
+        }
+    }
     
     &__input {
         padding: 15px 0 15px 13px;
