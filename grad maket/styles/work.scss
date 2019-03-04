@@ -17,18 +17,17 @@
     $exp:&;
 
     display: flex;
-    overflow: hidden;
     @include my(vw(102), 0);
 
     &__wrap {
         display: flex;
         flex-wrap: wrap;
+        flex-grow: 1;
     }
 
     &__item {
         position: relative;
-        max-width: vw(337);
-        min-width: vw(337);
+        width: 100%;
         min-height: vw(275);
         background: $linear-gradient;
 
@@ -45,6 +44,7 @@
         right: 0;
         bottom: 0;
         height: 100%;
+        width: 100%;
 
     }
 }
