@@ -24,13 +24,13 @@
 
     &__item {
         position: relative;
-        max-width: 337px;
-        min-width: 337px;
-        min-height: 275px;
+        max-width: vw(337);
+        min-width: vw(337);
+        min-height: vw(275);
         background: $linear-gradient;
 
         &_large {
-            min-height: 549px;
+            min-height: vw(549);
         }
 
     }
