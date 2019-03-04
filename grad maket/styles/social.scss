@@ -17,12 +17,15 @@
 
     &__network {
         display: flex;
-        justify-content: space-between;
         font-size: $text-size*0.86;
         font-family: 'roboto-light';
         color: $text-gray;
 
         @include my(0, vw(38));
+
+        @include scale(468) {
+            justify-content: space-between;
+        }
 
         &-item {
             padding: 7px;

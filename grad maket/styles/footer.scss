@@ -8,6 +8,10 @@
         border-bottom: 1px solid $border-color;
 
         @include py (vw(74), vw(70));
+
+        @include scale(1024, 'self-above') {
+            flex-wrap: nowrap;
+        }
     }
 
     &__copyright {
@@ -22,8 +26,33 @@
 
     &__column {
         text-align: left;
-        flex-grow: 1;
         margin-bottom: 30px;
+
+        @include scale(1024, 'self-above') {
+            max-width: (100% /3);
+            flex-basis: 100%;
+            margin-bottom: 0;
+            
+        }
+
+        &:not(:last-child) {
+            @include scale(1024, 'self-above') {
+                margin-right: 5%;
+            }
+        }
+        
+        &--blogging,
+        &--instagramm {
+            @include scale(468, 'self-above') {
+                max-width: 50%;
+            }
+        }
+
+        &--blogging {
+            @include scale(468, 'self-above') {
+                margin-right: 5%;
+            }
+        }
     }
 
 }
