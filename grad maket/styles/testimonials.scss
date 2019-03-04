@@ -61,3 +61,11 @@
     }
 
 }
+
+@media screen and (max-width:700px) {
+    .testimonial {
+        &__item {
+            width: 100%;
+        }
+    }
+}
