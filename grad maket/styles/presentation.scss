@@ -14,7 +14,7 @@
 
     &__form {
         margin-left: 15px;
-        width: 45%;
+        width: 49%;
     }
 
     &__content {
@@ -49,15 +49,14 @@
         padding: 20px 55px 20px 20px;
         border-top: 1px solid $text-gray;
     }
-    &__text,
-    &__input {
+    &__text {
         display: none;
     }
 
     &__input:checked {
         #{$present} {
             &__arrow {
-            transform: rotate(180deg);
+            transform: none;
 
             }
 
