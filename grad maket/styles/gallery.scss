@@ -92,6 +92,17 @@
                 margin: 0;
                 background: #fce38a;
 
+                &:hover {
+                    background: $line-color;
+
+                    #{$photo} {
+                        &__icon {
+                            fill:$text-white;
+                            stroke: $text-white;
+                        }
+                    }
+                }
+
 
                 &:nth-of-type(n+2) {
                     border-left: 1px solid $line-color;
