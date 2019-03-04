@@ -67,6 +67,12 @@
             color: $button-color;
             border-bottom: 2px solid $button-color;
 
+            #{$menu} {
+                &__icon {
+                    fill:$button-color;
+                    stroke: $button-color;
+                }
+            }
         }
     }
 }
