@@ -20,3 +20,23 @@
         }
     }
 }
+
+@media screen and (max-width:715px) {
+    .option {
+        width: 50%;
+
+        &:nth-of-type(3) {
+            padding-top: vw(90);
+        }
+    }
+}
+
+@media screen and (max-width:495px) {
+    .option {
+        width: 100%;
+
+        &:nth-of-type(2) {
+            padding-top: vw(90);
+        }
+    }
+}

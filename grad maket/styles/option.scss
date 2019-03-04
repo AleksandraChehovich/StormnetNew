@@ -11,7 +11,7 @@
 
     &__content {
         text-align: left;
-        @include px(27px,75px);
+        @include mx(vw(27),vw(75));
     }
     &__header {
         color: $text-black;
