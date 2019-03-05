@@ -7,10 +7,11 @@
 
     position: relative;
     flex-grow: 1;
+    max-width: 380px;
 
     &_large {
         width: 100%;
-        max-width: 380px;
+        // max-width: 380px;
     }
 
     &:hover {
