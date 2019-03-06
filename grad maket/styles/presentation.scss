@@ -37,6 +37,7 @@
         position: absolute;
         transform: rotate(-90deg);
         right: 20px;
+        top: 20px;
     }
 
     &__spoiler {
@@ -50,16 +51,20 @@
         padding: 20px 55px 20px 20px;
         border-top: 1px solid $text-gray;
     }
-    &__text {
+    &__text,
+    &__input     {
         display: none;
     }
 
     &__input:checked ~  #{$present}__arrow {
-            transform: rotate(-270deg);
+            transform: rotate(90deg);
 
             // &__text {
             //     display: block;
             // }
-        
+    }
+
+    &__input:checked ~ #{$present}__text {
+        display: block;
     }
 }
