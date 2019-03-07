@@ -21,7 +21,10 @@
     &__content {
         position: relative;
         border: 1px solid $text-gray;
-        padding: 15px;
+        
+        &:nth-of-type(n+2) {
+            @include my (10px, 0);
+        }
     }
 
     &__header {
@@ -43,13 +46,18 @@
     &__spoiler {
         display: flex;
         align-items: center;
+        border-bottom: 1px solid $text-gray;
+        padding: 15px;
     }
 
     &__text {
+        text-align: left;
         font-family: 'roboto-light';
         color: $text-gray;
-        padding: 20px 55px 20px 20px;
-        border-top: 1px solid $text-gray;
+        padding-right: 25px;
+        max-height: vw(90);
+        overflow-y: auto;
+        margin: 21px 25px 28px;
     }
     &__text,
     &__input     {
@@ -59,12 +67,37 @@
     &__input:checked ~  #{$present}__arrow {
             transform: rotate(90deg);
 
-            // &__text {
-            //     display: block;
-            // }
     }
 
     &__input:checked ~ #{$present}__text {
         display: block;
     }
 }
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color:#ecedee
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:$bg-color;
+    }
+    
+    ::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+    }
+    
+    ::-webkit-scrollbar{
+    width: 4px;
+    }
