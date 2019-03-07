@@ -55,6 +55,7 @@
         bottom: 0;
         height: 100%;
         width: 100%;
+ 
     }
 
     
@@ -81,7 +82,7 @@
     }
 
     &__secondary {
-        font-size: $text-size*0.7;
+        font-size: $text-size*0.8;
         font-family: 'roboyo-light';
         margin-top: 10px;
     }    
