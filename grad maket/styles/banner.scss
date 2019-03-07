@@ -47,8 +47,15 @@
             width: 23.5%;
             border-top: 3px solid $text-white;
             text-align: left;
+            font-size: 14px;
 
             @include py(vw(24), 0);
+
+            &_bold {
+            
+                font-size: 20px;
+                font-weight: bold;
+            }
         }
     }
 }
