@@ -28,6 +28,7 @@
     &__logo {
         color: $text-white;
         font-size: $text-size*2;
+
     }
 
     &__button {
@@ -55,12 +56,8 @@
 .menu {
     $menu:&;
 
-    &__item:not(:first-child) {
-         margin-left: 55px;
-    }
-
     &__item {
-
+        margin-left: 55px;
         padding-bottom: 12px;
 
         &:hover {
