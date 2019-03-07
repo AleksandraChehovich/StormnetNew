@@ -29,15 +29,25 @@
         position: relative;
         width: 100%;
         min-height: vw(275);
-        background: $linear-gradient;
 
         &_large {
             min-height: vw(549);
         }
 
+        &:hover {
+            #{$exp}__bg {
+            z-index: 2;
+            }
+
+            #{exp}__img {
+                z-index: 1;
+            }
+
+        }
     }
 
-    &__img {
+    &__img,
+    &__bg {
         position: absolute;
         top: 0;
         left: 0;
@@ -45,6 +55,34 @@
         bottom: 0;
         height: 100%;
         width: 100%;
-
     }
+
+    
+    &__bg {
+        background: $linear-gradient;
+        text-align: center;
+
+        @include py(vw(110), 0);
+
+        &-icon {
+
+            @include my (0, vw(10));
+        }
+    }
+}
+
+.bg-heading {
+    color: $text-white;
+
+    &__first {
+        text-transform: uppercase;
+        font-size: $text-size*0.7;
+        
+    }
+
+    &__secondary {
+        font-size: $text-size*0.7;
+        font-family: 'roboyo-light';
+        margin-top: 10px;
+    }    
 }

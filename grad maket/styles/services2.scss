@@ -11,6 +11,8 @@
     
     &__presentation {
         display: flex;
-        @include py(vw(92),vw(120));
+        min-height: vw(380);
+        
+        @include my(vw(92),vw(120));
     }
 }
