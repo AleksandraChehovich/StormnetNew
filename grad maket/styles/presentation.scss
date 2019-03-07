@@ -13,8 +13,7 @@
     }
 
     &__form {
-        margin-left: 15px;
-        // width: 49%;
+        margin-left: vw(15);
         flex-grow: 1;
     }
 
@@ -23,7 +22,7 @@
         border: 1px solid $text-gray;
         
         &:nth-of-type(n+2) {
-            @include my (10px, 0);
+            @include my (vw(10), 0);
         }
     }
 
@@ -32,32 +31,32 @@
         font-size: $text-size*0.67;
         color: $text-black;
 
-        @include px(15px,0);
+        @include px(vw(15),0);
     }
 
     &__arrow {
         cursor: pointer;
         position: absolute;
         transform: rotate(-90deg);
-        right: 20px;
-        top: 20px;
+        right: vw(20);
+        top: vw(20);
     }
 
     &__spoiler {
         display: flex;
         align-items: center;
         border-bottom: 1px solid $text-gray;
-        padding: 15px;
+        padding: vw(15);
     }
 
     &__text {
         text-align: left;
         font-family: 'roboto-light';
         color: $text-gray;
-        padding-right: 25px;
+        padding-right: vw(25);
         max-height: vw(90);
         overflow-y: auto;
-        margin: 21px 25px 28px;
+        margin: vw(21) vw(25) vw(28);
     }
     &__text,
     &__input     {
