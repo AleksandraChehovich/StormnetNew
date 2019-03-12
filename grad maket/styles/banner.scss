@@ -23,6 +23,7 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
+        position: relative;
     }
 
     &__logo {
@@ -78,5 +79,15 @@
                 }
             }
         }
+    }
+}
+
+@include scale (880, 'less') {
+    #menuToggle {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
     }
 }
