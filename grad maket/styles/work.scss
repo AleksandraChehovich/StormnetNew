@@ -77,13 +77,13 @@
 
     &__first {
         text-transform: uppercase;
-        font-size: $text-size*0.7;
+        font-size: vw(10);
         
     }
 
     &__secondary {
-        font-size: $text-size*0.8;
+        font-size: vw(12);
         font-family: 'roboyo-light';
-        margin-top: 10px;
+        margin-top: vw(10);
     }    
 }
