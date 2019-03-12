@@ -10,9 +10,12 @@
 
     
     &__presentation {
+        $pres:&;
+
         display: flex;
         min-height: vw(380);
         
         @include my(vw(92),vw(120));
+
     }
 }

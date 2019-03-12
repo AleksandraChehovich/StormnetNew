@@ -46,7 +46,7 @@
     &__spoiler {
         display: flex;
         align-items: center;
-        border-bottom: 1px solid $text-gray;
+        // border-bottom: 1px solid $text-gray;
         padding: vw(15);
     }
 
@@ -71,6 +71,20 @@
 
     &__input:checked ~ #{$present}__text {
         display: block;
+    }
+
+    @include scale (600, 'less'){
+        flex-direction: column;
+        max-width: 45%;
+        margin: auto;
+
+        &__img {
+            margin-bottom: 10px;
+        }
+
+        &__form {
+            margin-left: 0;
+        }
     }
 }
 
