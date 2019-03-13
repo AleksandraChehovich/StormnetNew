@@ -63,7 +63,7 @@
         background: $linear-gradient;
         text-align: center;
 
-        @include py(vw(110), 0);
+        @include py(vw(80), 0);
 
         &-icon {
 
@@ -86,4 +86,8 @@
         font-family: 'roboyo-light';
         margin-top: vw(10);
     }    
+
+    @include scale (500, 'less') {
+            display: none;
+    }
 }

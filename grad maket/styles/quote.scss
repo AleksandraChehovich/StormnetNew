@@ -69,7 +69,7 @@
         fill: $text-gray-light;
         stroke: $text-gray-light;
 
-        @include py (vw(134), vw(134));
+        @include py (134px, 0);
 
         &_left {
             top: 0;
