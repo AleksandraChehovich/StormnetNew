@@ -89,11 +89,7 @@
 
     &__item {
         font-size: $text-size*0.85;
-
-        &:nth-of-type(2n) {
-            
-            @include mx(7px,19px);
-        }
+        margin-right: 7px;
     }
 
 }
